@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Majokun.dir/main.cpp.o -o Majokun.exe -Wl,--out-implib,libMajokun.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

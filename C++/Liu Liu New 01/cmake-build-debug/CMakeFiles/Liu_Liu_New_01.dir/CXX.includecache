@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/OutOfBoundsException.hpp
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/String.hpp
+OutOfBoundsException.hpp
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/OutOfBoundsException.hpp
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/main.cpp
+iostream
+-
+String.hpp
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/String.hpp
+cstring
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/string.cpp
+String.hpp
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 01/String.hpp
+

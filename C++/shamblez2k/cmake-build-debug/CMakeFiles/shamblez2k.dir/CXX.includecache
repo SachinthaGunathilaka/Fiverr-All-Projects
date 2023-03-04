@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/shamblez2k/BST.cpp
+BST.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/shamblez2k/BST.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/shamblez2k/BST.h
+iostream
+-
+string
+-
+iomanip
+-
+fstream
+-
+

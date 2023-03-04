@@ -1,0 +1,23 @@
+1)  For searching, at what size of N does binary search regularly outperform linearSearch? What are the
+    times.
+
+    When N is less than 250, binary search is not faster than linear search.
+    Ex :
+        N         Linear Search Time                 Binary Search Time
+        ------------------------------------------------------------------
+        20          5 microseconds                      5 microseconds
+        50          6 microseconds                      7 microseconds
+        100         6 microseconds                      6 microseconds
+        250         6 microseconds                      6 microseconds
+
+
+
+2) Compare run times for bubble sort and selection sort
+
+   The efficiency of Selection sort algorithm is better when compared to Bubble sort algorithm.
+
+       N         Linear Search Time                 Binary Search Time
+    ------------------------------------------------------------------
+       100        96 microseconds                     51 microseconds
+       1000       3796 microseconds                   1728 microseconds
+       10000      408275 microseconds                 170962 microseconds

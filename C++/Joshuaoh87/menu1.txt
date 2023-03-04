@@ -1,0 +1,76 @@
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 1
+Please enter a specific year: 2015
+January 2015: No Data
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 10
+Please enter a specific year: 2015
+October 2015: 18.0 km/h, 19.0 degrees C.
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 3
+Please enter a specific year: 2016
+March 2016: 9.0 km/h, 16.3 degrees C.
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 4
+Please enter a specific year: 2016
+April 2016: No Data
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 5
+Please enter a specific year: 2016
+May 2016: No Data
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 6
+Please enter a specific year: 2016
+June 2016: No Data
+
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 1
+Please enter a specific month: 12
+Please enter a specific year: 2016
+December 2016: No Data

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614 4/linkedlist.h
+string
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614 4/main.cpp
+iostream
+-
+linkedlist.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614 4/linkedlist.h
+

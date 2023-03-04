@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/kennyfernandosu.dir/dijkstra.cpp.o -o kennyfernandosu.exe -Wl,--out-implib,libkennyfernandosu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

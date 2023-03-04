@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Yoprabhu.dir/task2.cpp.o -o Yoprabhu.exe -Wl,--out-implib,libYoprabhu.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

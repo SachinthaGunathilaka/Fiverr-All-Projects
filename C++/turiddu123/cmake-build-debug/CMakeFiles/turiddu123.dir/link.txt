@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/turiddu123.dir/main.cpp.o CMakeFiles/turiddu123.dir/Gamer.cpp.o CMakeFiles/turiddu123.dir/Match.cpp.o CMakeFiles/turiddu123.dir/Tournament.cpp.o -o turiddu123.exe -Wl,--out-implib,libturiddu123.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

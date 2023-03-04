@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/jwprodesign.dir/main.cpp.o CMakeFiles/jwprodesign.dir/Product.cpp.o -o jwprodesign.exe -Wl,--out-implib,libjwprodesign.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

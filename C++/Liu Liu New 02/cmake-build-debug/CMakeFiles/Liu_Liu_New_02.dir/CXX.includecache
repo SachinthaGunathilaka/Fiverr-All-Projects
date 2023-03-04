@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 02/core/MyMazeGenerator.cpp
+MyMazeGenerator.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 02/core/MyMazeGenerator.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Liu Liu New 02/core/MyMazeGenerator.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/kfields99.dir/main.cpp.o CMakeFiles/kfields99.dir/dayType.cpp.o -o kfields99.exe -Wl,--out-implib,libkfields99.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

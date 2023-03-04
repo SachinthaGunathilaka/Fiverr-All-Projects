@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jwprodesign/Product.h
+iostream
+-
+utility
+-
+iomanip
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jwprodesign/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+Product.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jwprodesign/Product.h
+

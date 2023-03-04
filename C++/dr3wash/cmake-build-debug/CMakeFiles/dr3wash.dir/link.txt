@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/dr3wash.dir/main.cpp.o -o dr3wash.exe -Wl,--out-implib,libdr3wash.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

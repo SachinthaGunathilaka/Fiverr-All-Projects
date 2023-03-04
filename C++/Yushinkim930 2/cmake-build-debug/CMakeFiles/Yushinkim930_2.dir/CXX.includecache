@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930 2/SearchAndSort.h
+vector
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930 2/main.cpp
+iostream
+-
+SearchAndSort.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930 2/SearchAndSort.h
+chrono
+-
+

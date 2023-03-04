@@ -1,0 +1,3 @@
+/cygdrive/c/Users/sachi/OneDrive/Desktop/dr3wash/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/sachi/OneDrive/Desktop/dr3wash/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/sachi/OneDrive/Desktop/dr3wash/cmake-build-debug/CMakeFiles/dr3wash.dir

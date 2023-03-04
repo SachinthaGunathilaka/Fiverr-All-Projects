@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/mattkerrigan/Edge.h
+iostream
+-
+fstream
+-
+string
+-
+cmath
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/mattkerrigan/MST.cpp
+MinPriorityQueue.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/mattkerrigan/MinPriorityQueue.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/mattkerrigan/MinPriorityQueue.h
+Edge.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/mattkerrigan/Edge.h
+

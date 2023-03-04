@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/HashedObj.h
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/main.cpp
+myHashTable.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/myHashTable.h
+HashedObj.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/HashedObj.h
+iostream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/myHashTable.cpp
+myHashTable.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/myHashTable.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/fu3333/myHashTable.h
+list
+-
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+functional
+-
+

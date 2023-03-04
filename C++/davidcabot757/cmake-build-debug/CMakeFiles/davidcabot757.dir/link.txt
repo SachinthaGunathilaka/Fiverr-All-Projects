@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/davidcabot757.dir/main.cpp.o -o davidcabot757.exe -Wl,--out-implib,libdavidcabot757.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

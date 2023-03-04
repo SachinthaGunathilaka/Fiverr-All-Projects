@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/selimkaya610_project_2.dir/main.cpp.o -o selimkaya610_project_2.exe -Wl,--out-implib,libselimkaya610_project_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

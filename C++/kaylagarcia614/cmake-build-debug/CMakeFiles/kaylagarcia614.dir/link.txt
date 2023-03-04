@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/kaylagarcia614.dir/bst.cpp.o CMakeFiles/kaylagarcia614.dir/Main.cpp.o -o kaylagarcia614.exe -Wl,--out-implib,libkaylagarcia614.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

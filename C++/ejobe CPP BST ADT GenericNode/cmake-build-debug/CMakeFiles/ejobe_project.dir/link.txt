@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/ejobe_project.dir/main.cpp.o -o ejobe_project.exe -Wl,--out-implib,libejobe_project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

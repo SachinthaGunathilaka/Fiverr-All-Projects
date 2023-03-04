@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jeremylin618/ArgumentManager.h
+map
+-
+string
+-
+iostream
+-
+sstream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jeremylin618/main.cpp
+iostream
+-
+string
+-
+vector
+-
+algorithm
+-
+fstream
+-
+ArgumentManager.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/jeremylin618/ArgumentManager.h
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kfields99/dayType.h
+string
+-
+iostream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kfields99/main.cpp
+iostream
+-
+dayType.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kfields99/dayType.h
+

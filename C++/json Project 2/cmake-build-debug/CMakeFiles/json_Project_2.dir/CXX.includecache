@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Episode.h
+iostream
+-
+string
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/string
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Network.cpp
+Network.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Network.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Network.h
+iostream
+-
+string
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/string
+PodArray.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/PodArray.h
+Subscriber.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Subscriber.h
+defs.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/defs.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/PodArray.h
+iostream
+-
+string
+-
+iomanip
+-
+Podcast.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Podcast.h
+defs.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/defs.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Podcast.h
+string
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/string
+Episode.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Episode.h
+defs.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/defs.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/Subscriber.h
+string
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/string
+iostream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/json Project 2/defs.h
+

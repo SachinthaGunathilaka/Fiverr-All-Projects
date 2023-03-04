@@ -1,0 +1,22 @@
+Student ID: 12345678
+Semester:   1
+  Unit Name:  Data_Structures_And_Abstractions
+  Unit ID  :  ICT283
+  Credits  :  3
+  Marks    :  90
+  Date     :  11-2-2021
+
+  Unit Name:  Computer_Graphics
+  Unit ID  :  ICT289
+  Credits  :  3
+  Marks    :  97
+  Date     :  23-3-2021
+
+  Unit Name:  Operating_Systems
+  Unit ID  :  ICT374
+  Credits  :  4
+  Marks    :  71
+  Date     :  5-6-2022
+
+Number of units = 3
+Total credits   = 0

@@ -1,0 +1,5 @@
+Yellow Medium 20 1
+Green Medium 12 5
+Yellow Large 8 15
+Green Large 10 15
+Red Small 20 7

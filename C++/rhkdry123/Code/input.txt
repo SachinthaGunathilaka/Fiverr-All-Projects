@@ -1,0 +1,38 @@
+mkdir root/hello
+
+mkdir root/hello/world
+tree root
+
+touch root/hello/hi
+tree root
+
+cat root/hello/hi
+
+echo root/hello/ab.txt good bye
+tree root
+cat root/hello/ab.txt
+echo root/hello/ab.txt GOOD BYE
+cat root/hello/ab.txt
+
+ls root
+ls root/hello
+tree root
+tree root/hello
+
+mv root/hello/world root
+tree root
+
+mv root/hello/hi root
+
+cp root/hello/world/hi root
+cp root/world/hello root
+tree root
+
+rmdir root/world/hello/ab.txt
+rmdir root/world/hello
+tree root
+
+
+rm root/hello/ab.txt
+tree root
+rm root/hello

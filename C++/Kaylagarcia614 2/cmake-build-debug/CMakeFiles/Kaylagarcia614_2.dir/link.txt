@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Kaylagarcia614_2.dir/NQueens.cpp.o -o Kaylagarcia614_2.exe -Wl,--out-implib,libKaylagarcia614_2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

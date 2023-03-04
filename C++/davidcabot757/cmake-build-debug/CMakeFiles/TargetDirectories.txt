@@ -1,0 +1,3 @@
+/cygdrive/c/Users/sachi/OneDrive/Desktop/davidcabot757/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/sachi/OneDrive/Desktop/davidcabot757/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/sachi/OneDrive/Desktop/davidcabot757/cmake-build-debug/CMakeFiles/davidcabot757.dir

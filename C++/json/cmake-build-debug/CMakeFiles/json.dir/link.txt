@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/json.dir/Date.cc.o CMakeFiles/json.dir/Library.cc.o CMakeFiles/json.dir/main.cc.o CMakeFiles/json.dir/Reservation.cc.o CMakeFiles/json.dir/Room.cc.o CMakeFiles/json.dir/Student.cc.o -o json.exe -Wl,--out-implib,libjson.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

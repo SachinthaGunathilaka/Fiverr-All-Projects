@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/super1955.dir/Card.cpp.o CMakeFiles/super1955.dir/Dealer.cpp.o CMakeFiles/super1955.dir/main-6.cpp.o -o super1955.exe -Wl,--out-implib,libsuper1955.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Whatsapp_FIverr.dir/Task5.cpp.o -o Whatsapp_FIverr.exe -Wl,--out-implib,libWhatsapp_FIverr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

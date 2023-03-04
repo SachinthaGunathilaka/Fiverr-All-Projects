@@ -1,0 +1,1214 @@
+The file: trump2.txt contains 1439 Words.
+There are 1211 unique terms.
+
+ WE WILL                                                    	24
+ OF OUR                                                     	10
+ OUR COUNTRY                                                	8
+ WE ARE                                                     	8
+ THE SAME                                                   	6
+ WILL BE                                                    	6
+ AT THE                                                     	5
+ OF AMERICA                                                 	5
+ WILL MAKE                                                  	5
+ A NEW                                                      	4
+ AGAIN WE                                                   	4
+ AND WE                                                     	4
+ BACK OUR                                                   	4
+ BRING BACK                                                 	4
+ BY THE                                                     	4
+ FROM THE                                                   	4
+ IN EVERY                                                   	4
+ IS YOUR                                                    	4
+ IT IS                                                      	4
+ MAKE AMERICA                                               	4
+ THE PEOPLE                                                 	4
+ THE WORLD                                                  	4
+ WILL BRING                                                 	4
+ WITH THE                                                   	4
+ ALL ACROSS                                                 	3
+ AMERICA IS                                                 	3
+ AND THE                                                    	3
+ BUT WE                                                     	3
+ FOR THEIR                                                  	3
+ IN OUR                                                     	3
+ OF A                                                       	3
+ OF THE                                                     	3
+ OTHER COUNTRIES                                            	3
+ POWER FROM                                                 	3
+ TO YOU                                                     	3
+ TOGETHER WE                                                	3
+ WE ALL                                                     	3
+ WE MUST                                                    	3
+ WILL NEVER                                                 	3
+ A NATION                                                   	2
+ ACROSS OUR                                                 	2
+ ACROSS THE                                                 	2
+ ALL AMERICANS                                              	2
+ ALLEGIANCE TO                                              	2
+ AMERICA AND                                                	2
+ AMERICA WE                                                 	2
+ AMERICAN WORKERS                                           	2
+ AND AMERICAN                                               	2
+ AND THEIR                                                  	2
+ AND TO                                                     	2
+ AND WOMEN                                                  	2
+ AND YOUR                                                   	2
+ ARE PROTECTED                                              	2
+ BACK TO                                                    	2
+ BE PROTECTED                                               	2
+ BEEN YOUR                                                  	2
+ BELONGS TO                                                 	2
+ BUT THE                                                    	2
+ CITIZENS OF                                                	2
+ COUNTRY WILL                                               	2
+ DO NOT                                                     	2
+ DREAMS AND                                                 	2
+ EVERY CITY                                                 	2
+ FOR TOO                                                    	2
+ FROM ONE                                                   	2
+ FROM THIS                                                  	2
+ GOD BLESS                                                  	2
+ HAVE NOT                                                   	2
+ HERE AND                                                   	2
+ HERE TODAY                                                 	2
+ I WILL                                                     	2
+ IS THE                                                     	2
+ IT BELONGS                                                 	2
+ LOYALTY TO                                                 	2
+ MEN AND                                                    	2
+ NATIONS CAPITAL                                            	2
+ NO LONGER                                                  	2
+ NOT BEEN                                                   	2
+ NOW WE                                                     	2
+ OATH OF                                                    	2
+ OF AMERICAN                                                	2
+ OF LIFE                                                    	2
+ OF OTHER                                                   	2
+ OF POWER                                                   	2
+ OF THIS                                                    	2
+ OUR BORDERS                                                	2
+ OUR DREAMS                                                 	2
+ OUR GOVERNMENT                                             	2
+ OUR JOBS                                                   	2
+ OUR LAND                                                   	2
+ OUR LOYALTY                                                	2
+ OUR MILITARY                                               	2
+ OUR NATIONS                                                	2
+ OUR PEOPLE                                                 	2
+ PRESIDENT OBAMA                                            	2
+ PROTECTED BY                                               	2
+ RIGHT HERE                                                 	2
+ RIGHT NOW                                                  	2
+ STATES OF                                                  	2
+ STOPS RIGHT                                                	2
+ THANK YOU                                                  	2
+ THAT A                                                     	2
+ THE CITIZENS                                               	2
+ THE EARTH                                                  	2
+ THE FACTORIES                                              	2
+ THE PAST                                                   	2
+ THE UNITED                                                 	2
+ THE WEALTH                                                 	2
+ THIS IS                                                    	2
+ THIS MOMENT                                                	2
+ TO ALL                                                     	2
+ TO ANOTHER                                                 	2
+ TO BE                                                      	2
+ TO THE                                                     	2
+ TOO MANY                                                   	2
+ TRANSFERRING POWER                                         	2
+ UNITED STATES                                              	2
+ WE DO                                                      	2
+ WHILE THE                                                  	2
+ WILL GET                                                   	2
+ WOMEN OF                                                   	2
+ WORLD BUT                                                  	2
+ YOU IT                                                     	2
+ 2017 WILL                                                  
+ 20TH 2017                                                  
+ A CHILD                                                    
+ A CRUCIAL                                                  
+ A DIFFERENT                                                
+ A GREAT                                                    
+ A HISTORIC                                                 
+ A RIGHTEOUS                                                
+ A SMALL                                                    
+ A THOUGHT                                                  
+ A TOTAL                                                    
+ ABOUT IT                                                   
+ ABOUT THE                                                  
+ ACCEPT POLITICIANS                                         
+ ACROSS AMERICA                                             
+ ACTION CONSTANTLY                                          
+ ACTION DO                                                  
+ ADMINISTRATION TO                                          
+ AFFAIRS WILL                                               
+ AGAIN AND                                                  
+ AGAIN THANK                                                
+ AGAIN THE                                                  
+ AGAIN WINNING                                              
+ AGAIN YOUR                                                 
+ AGAINST RADICAL                                            
+ AID THROUGHOUT                                             
+ AIRPORTS AND                                               
+ ALL BLEED                                                  
+ ALL CHANGES                                                
+ ALL ENJOY                                                  
+ ALL NATIONS                                                
+ ALL OF                                                     
+ ALL SALUTE                                                 
+ ALL TALK                                                   
+ ALLIANCES AND                                              
+ ALLOWING FOR                                               
+ ALMIGHTY CREATOR                                           
+ ALONG THE                                                  
+ ALWAYS BE                                                  
+ ALWAYS PURSUE                                              
+ AMERICA ARE                                                
+ AMERICA FIRST                                              
+ AMERICA GREAT                                              
+ AMERICA PROUD                                              
+ AMERICA SAFE                                               
+ AMERICA STRONG                                             
+ AMERICA THIS                                               
+ AMERICA WILL                                               
+ AMERICAN AND                                               
+ AMERICAN CARNAGE                                           
+ AMERICAN DESTINY                                           
+ AMERICAN FAMILIES                                          
+ AMERICAN FLAG                                              
+ AMERICAN HANDS                                             
+ AMERICAN INDUSTRY                                          
+ AMERICAN LABOR                                             
+ AMERICAN PEOPLE                                            
+ AMERICAN WE                                                
+ AMERICANS AND                                              
+ AMERICANS FOR                                              
+ AMERICANS IN                                               
+ AMERICANS WANT                                             
+ AMERICAS INFRASTRUCTURE                                    
+ AN EDUCATION                                               
+ AN EXAMPLE                                                 
+ AN OATH                                                    
+ AND AIRPORTS                                               
+ AND BACK                                                   
+ AND BEAUTIFUL                                              
+ AND BRIDGES                                                
+ AND CHILDREN                                               
+ AND CONFIDENCE                                             
+ AND DECAY                                                  
+ AND DESTROYING                                             
+ AND DREAM                                                  
+ AND DRUGS                                                  
+ AND EVERYONE                                               
+ AND FAR                                                    
+ AND FIGHT                                                  
+ AND FIRST                                                  
+ AND FORM                                                   
+ AND FROM                                                   
+ AND GANGS                                                  
+ AND GIVING                                                 
+ AND GOD                                                    
+ AND GOOD                                                   
+ AND GOODNESS                                               
+ AND GOODWILL                                               
+ AND HEAL                                                   
+ AND HIGHWAYS                                               
+ AND HIRE                                                   
+ AND I                                                      
+ AND IN                                                     
+ AND LARGE                                                  
+ AND LAW                                                    
+ AND LEFT                                                   
+ AND LOVE                                                   
+ AND MOST                                                   
+ AND NO                                                     
+ AND NOW                                                    
+ AND ONE                                                    
+ AND PEACEFUL                                               
+ AND PEOPLE                                                 
+ AND PLEASANT                                               
+ AND PROSPER                                                
+ AND RAILWAYS                                               
+ AND REASONABLE                                             
+ AND RIGHT                                                  
+ AND ROBBED                                                 
+ AND SPENT                                                  
+ AND SPIRIT                                                 
+ AND STOPS                                                  
+ AND STRENGTH                                               
+ AND TECHNOLOGIES                                           
+ AND THEN                                                   
+ AND THEY                                                   
+ AND THIS                                                   
+ AND THROUGH                                                
+ AND TUNNELS                                                
+ AND UNITE                                                  
+ AND WHETHER                                                
+ AND WHILE                                                  
+ AND YES                                                    
+ ANOTHER BUT                                                
+ ANOTHER OR                                                 
+ ANYONE BUT                                                 
+ ANYONE TELL                                                
+ ANYTHING ABOUT                                             
+ ARE ALL                                                    
+ ARE BLACK                                                  
+ ARE GRATEFUL                                               
+ ARE INFUSED                                                
+ ARE ISSUING                                                
+ ARE LOOKING                                                
+ ARE NOT                                                    
+ ARE NOW                                                    
+ ARE ONE                                                    
+ ARE OUR                                                    
+ ARE THE                                                    
+ ARE TRANSFERRING                                           
+ ARMIES OF                                                  
+ ARRIVES THE                                                
+ AS AN                                                      
+ AS IT                                                      
+ AS LONG                                                    
+ AS THE                                                     
+ ASSEMBLED HERE                                             
+ BE A                                                       
+ BE AMERICA                                                 
+ BE DONE                                                    
+ BE FORGOTTEN                                               
+ BE HEARD                                                   
+ BE IGNORED                                                 
+ BE MADE                                                    
+ BE NO                                                      
+ BE OUR                                                     
+ BE REMEMBERED                                              
+ BEAUTIFUL STUDENTS                                         
+ BECAME THE                                                 
+ BECAUSE THIS                                               
+ BECAUSE TODAY                                              
+ BECOME PART                                                
+ BEDROCK OF                                                 
+ BEEN MAGNIFICENT                                           
+ BEEN RIPPED                                                
+ BEFORE AT                                                  
+ BEFORE WE                                                  
+ BEHIND THE                                                 
+ BENEFIT AMERICAN                                           
+ BIBLE TELLS                                                
+ BIG AND                                                    
+ BIGGER IN                                                  
+ BIRTH OF                                                   
+ BLACK OR                                                   
+ BLEED THE                                                  
+ BLESS AMERICA                                              
+ BLESS YOU                                                  
+ BLOOD OF                                                   
+ BODY AND                                                   
+ BORDERS FROM                                               
+ BORDERS WE                                                 
+ BORDERS WHILE                                              
+ BORN IN                                                    
+ BORNE THE                                                  
+ BREATH IN                                                  
+ BREATH OF                                                  
+ BRIDGES AND                                                
+ BROWN OR                                                   
+ BUILD NEW                                                  
+ BUSH PRESIDENT                                             
+ BUT ALWAYS                                                 
+ BUT FOR                                                    
+ BUT NEVER                                                  
+ BUT NOT                                                    
+ BUT RATHER                                                 
+ BUT THAT                                                   
+ BUT WHETHER                                                
+ BUT WHICH                                                  
+ BUY AMERICAN                                               
+ BY GOD                                                     
+ BY ONE                                                     
+ CAME BY                                                    
+ CAN MATCH                                                  
+ CANNOT BE                                                  
+ CAPITAL AND                                                
+ CAPITAL HAS                                                
+ CAPITAL THERE                                              
+ CARNAGE STOPS                                              
+ CARRY OUT                                                  
+ CARTER PRESIDENT                                           
+ CASH BUT                                                   
+ CELEBRATE FOR                                              
+ CELEBRATED IN                                              
+ CELEBRATION AND                                            
+ CENTER OF                                                  
+ CEREMONY HOWEVER                                           
+ CHALLENGE CAN                                              
+ CHALLENGES WE                                              
+ CHANGES STARTING                                           
+ CHIEF JUSTICE                                              
+ CHILD IS                                                   
+ CHILDREN SAFE                                              
+ CHILDREN TRAPPED                                           
+ CITIES RUSTEDOUT                                           
+ CITIZENS A                                                 
+ CITIZENS AMERICANS                                         
+ CITY IN                                                    
+ CITY NEAR                                                  
+ CIVILIZED WORLD                                            
+ CLASS HAS                                                  
+ CLINTON PRESIDENT                                          
+ CLOSED THE                                                 
+ COME WE                                                    
+ COMPANIES AND                                              
+ COMPLAINING BUT                                            
+ COMPLETELY FROM                                            
+ CONFIDENCE OF                                              
+ CONFRONT HARDSHIPS                                         
+ CONSTANTLY COMPLAINING                                     
+ CONTROLLED BY                                              
+ CONTROLS OUR                                               
+ CONVICTION THAT                                            
+ COST WASHINGTON                                            
+ COUNTRIES MAKING                                           
+ COUNTRIES RICH                                             
+ COUNTRIES WHILE                                            
+ COUNTRY AND                                                
+ COUNTRY HAS                                                
+ COUNTRY OF                                                 
+ COUNTRY THEIR                                              
+ COUNTRY WE                                                 
+ COUNTRY WHAT                                               
+ COUNTRY WITH                                               
+ COURAGE AND                                                
+ COURSE OF                                                  
+ CREATOR SO                                                 
+ CRIME AND                                                  
+ CRUCIAL CONVICTION                                         
+ DAY FORWARD                                                
+ DAY THE                                                    
+ DAY THIS                                                   
+ DC AND                                                     
+ DEBATE OUR                                                 
+ DECADES WEVE                                               
+ DECAY WEVE                                                 
+ DECISION ON                                                
+ DECREE TO                                                  
+ DEFEND OUR                                                 
+ DEFENDED OTHER                                             
+ DEFINE OUR                                                 
+ DEMANDS OF                                                 
+ DEPLETION OF                                               
+ DEPRIVED OF                                                
+ DESTINY AND                                                
+ DESTINY THE                                                
+ DESTROYING OUR                                             
+ DETERMINE THE                                              
+ DETROIT OR                                                 
+ DID NOT                                                    
+ DIFFERENT REALITY                                          
+ DISAGREEMENTS HONESTLY                                     
+ DISAPPEARED OVER                                           
+ DISEASE AND                                                
+ DISREPAIR AND                                              
+ DIVISIONS IT                                               
+ DO SO                                                      
+ DOING ANYTHING                                             
+ DOLLARS OVERSEAS                                           
+ DONE EVERY                                                 
+ DONE NO                                                    
+ DOWN AMERICA                                               
+ DREAM EVEN                                                 
+ DREAMS ARE                                                 
+ DREAMS WE                                                  
+ DREAMS WILL                                                
+ DRUGS THAT                                                 
+ EACH OTHER                                                 
+ EARTH AT                                                   
+ EARTH FROM                                                 
+ EDUCATION SYSTEM                                           
+ EFFORT TO                                                  
+ EMPTY TALK                                                 
+ ENERGIES INDUSTRIES                                        
+ ENFORCEMENT AND                                            
+ ENJOY THE                                                  
+ ENRICHED FOREIGN                                           
+ ENTIRE WORLD                                               
+ ERADICATE COMPLETELY                                       
+ ESTABLISHMENT PROTECTED                                    
+ EVEN A                                                     
+ EVEN BIGGER                                                
+ EVER LET                                                   
+ EVERY BREATH                                               
+ EVERY DECISION                                             
+ EVERY FOREIGN                                              
+ EVERY FOUR                                                 
+ EVERY HALL                                                 
+ EVERYONE GATHERED                                          
+ EVERYONE IS                                                
+ EVERYONE TO                                                
+ EVERYONE WATCHING                                          
+ EXAMPLE FOR                                                
+ EXISTS MOTHERS                                             
+ EXISTS TO                                                  
+ EXPENSE OF                                                 
+ FACE CHALLENGES                                            
+ FACE OF                                                    
+ FACTORIES CLOSED                                           
+ FACTORIES SCATTERED                                        
+ FACTORIES SHUTTERED                                        
+ FAIL OUR                                                   
+ FALLEN INTO                                                
+ FAMILIES ALL                                               
+ FAMILIES AND                                               
+ FAMILIES WE                                                
+ FAR SMALL                                                  
+ FEAR WE                                                    
+ FELLOW AMERICANS                                           
+ FIGHT AND                                                  
+ FIGHT FOR                                                  
+ FILL THEIR                                                 
+ FINALLY WE                                                 
+ FIRST EVERY                                                
+ FIRST LADY                                                 
+ FIRST WE                                                   
+ FLAG AND                                                   
+ FLOURISHED BUT                                             
+ FLUSH WITH                                                 
+ FOLLOW TWO                                                 
+ FOLLOW WE                                                  
+ FOR ALL                                                    
+ FOR EMPTY                                                  
+ FOR EVERYONE                                               
+ FOR MANY                                                   
+ FOR PREJUDICE                                              
+ FOR STRUGGLING                                             
+ FOR THE                                                    
+ FOR THEMSELVES                                             
+ FOR YEARS                                                  
+ FOR YOU                                                    
+ FOREIGN AFFAIRS                                            
+ FOREIGN CAPITAL                                            
+ FOREIGN INDUSTRY                                           
+ FOREVER GUIDE                                              
+ FORGET THAT                                                
+ FORGOTTEN MEN                                              
+ FORGOTTEN NO                                               
+ FORM NEW                                                   
+ FORWARD A                                                  
+ FOUR YEARS                                                 
+ FREE THE                                                   
+ FREEDOMS AND                                               
+ FRIENDSHIP AND                                             
+ FROM MOUNTAIN                                              
+ FROM OCEAN                                                 
+ FROM THEIR                                                 
+ FROM WASHINGTON                                            
+ FUTURE WE                                                  
+ GANGS AND                                                  
+ GATHER ON                                                  
+ GATHERED HERE                                              
+ GET OUR                                                    
+ GET THE                                                    
+ GIVING IT                                                  
+ GLORIOUS DESTINY                                           
+ GLORIOUS FREEDOMS                                          
+ GOD FINALLY                                                
+ GODS PEOPLE                                                
+ GOING TO                                                   
+ GOOD AND                                                   
+ GOOD JOBS                                                  
+ GOODNESS AND                                               
+ GOODWILL WITH                                              
+ GOVERN OUR                                                 
+ GOVERNMENT BUT                                             
+ GOVERNMENT IS                                              
+ GOVERNMENT WHILE                                           
+ GRACIOUS AID                                               
+ GRATEFUL TO                                                
+ GREAT AGAIN                                                
+ GREAT AMERICAN                                             
+ GREAT MEN                                                  
+ GREAT NATIONAL                                             
+ GREAT PROSPERITY                                           
+ GREAT SCHOOLS                                              
+ GROUP IN                                                   
+ GUIDE US                                                   
+ HALL OF                                                    
+ HANDS AND                                                  
+ HARDSHIPS BUT                                              
+ HARNESS THE                                                
+ HAS BEEN                                                   
+ HAS DISAPPEARED                                            
+ HAS FALLEN                                                 
+ HAS NEVER                                                  
+ HAS REAPED                                                 
+ HAS VERY                                                   
+ HAVE BEEN                                                  
+ HAVE BORNE                                                 
+ HAVE STOLEN                                                
+ HEAL OUR                                                   
+ HEAR THESE                                                 
+ HEARD IN                                                   
+ HEART AND                                                  
+ HEART ONE                                                  
+ HEART TO                                                   
+ HEART WITH                                                 
+ HIGHWAYS AND                                               
+ HIRE AMERICAN                                              
+ HISTORIC MOVEMENT                                          
+ HOME AND                                                   
+ HOMES AND                                                  
+ HONESTLY BUT                                               
+ HOPES AND                                                  
+ HORIZON ONE                                                
+ HOUR OF                                                    
+ HOW GOOD                                                   
+ HOWEVER HAS                                                
+ I TAKE                                                     
+ IGNORED AGAIN                                              
+ IMMIGRATION ON                                             
+ IMPORTANTLY WE                                             
+ IMPOSE OUR                                                 
+ IN A                                                       
+ IN AMERICA                                                 
+ IN ITS                                                     
+ IN MY                                                      
+ IN POVERTY                                                 
+ IN THE                                                     
+ IN UNITY                                                   
+ INAUGURATION SPEECH                                        
+ INDUSTRIES AND                                             
+ INDUSTRY AT                                                
+ INDUSTRY SUBSIDIZED                                        
+ INFRASTRUCTURE HAS                                         
+ INFUSED WITH                                               
+ INNER CITIES                                               
+ INTERESTS FIRST                                            
+ INTO DISREPAIR                                             
+ IS A                                                       
+ IS AN                                                      
+ IS BORN                                                    
+ IS CONTROLLED                                              
+ IS LISTENING                                               
+ IS NO                                                      
+ IS NOT                                                     
+ IS ONLY                                                    
+ IS OUR                                                     
+ IS OVER                                                    
+ IS STRIVING                                                
+ IS TIME                                                    
+ IS TOTALLY                                                 
+ IS UNITED                                                  
+ IS WHEN                                                    
+ ISLAMIC TERRORISM                                          
+ ISSUING A                                                  
+ IT BACK                                                    
+ IT CANNOT                                                  
+ IT SHINE                                                   
+ IT THE                                                     
+ ITS CITIZENS                                               
+ ITS GOING                                                  
+ ITS PROMISE                                                
+ ITS WEALTH                                                 
+ ITSELF BUT                                                 
+ JANUARY 20TH                                               
+ JOB DONE                                                   
+ JOBS FOR                                                   
+ JOBS LEFT                                                  
+ JOBS PROTECTION                                            
+ JOBS WE                                                    
+ JOINED IN                                                  
+ JUST AND                                                   
+ JUSTICE ROBERTS                                            
+ KNOWLEDGE AND                                              
+ LABOR WE                                                   
+ LADY MICHELLE                                              
+ LAND FROM                                                  
+ LAND THAT                                                  
+ LANDSCAPE OF                                               
+ LARGE FROM                                                 
+ LAW ENFORCEMENT                                            
+ LEAD TO                                                    
+ LEAVES OUR                                                 
+ LEFT AND                                                   
+ LEFT BEHIND                                                
+ LEFT OUR                                                   
+ LET ANYONE                                                 
+ LET IT                                                     
+ LET YOU                                                    
+ LIBRARY FOR                                                
+ LIFE BY                                                    
+ LIFE ON                                                    
+ LIFT OUR                                                   
+ LIKE NEVER                                                 
+ LIKE TOMBSTONES                                            
+ LIKES OF                                                   
+ LISTENING TO                                               
+ LITTLE TO                                                  
+ LIVE TOGETHER                                              
+ LIVES AND                                                  
+ LIVING AS                                                  
+ LONG A                                                     
+ LONG AS                                                    
+ LONGER ACCEPT                                              
+ LONGER EVERYONE                                            
+ LOOK UP                                                    
+ LOOKING ONLY                                               
+ LOVE WILL                                                  
+ MADE OTHER                                                 
+ MADE TO                                                    
+ MAGNIFICENT TODAYS                                         
+ MAKE WEALTHY                                               
+ MAKING OUR                                                 
+ MANY DECADES                                               
+ MANY LIVES                                                 
+ MANY OF                                                    
+ MATCH THE                                                  
+ MATTERS IS                                                 
+ MEANING BECAUSE                                            
+ MERELY TRANSFERRING                                        
+ MICHELLE OBAMA                                             
+ MIDDLE CLASS                                               
+ MILITARY AND                                               
+ MILITARY WEVE                                              
+ MILLENNIUM READY                                           
+ MILLIONS OF                                                
+ MILLIONS TO                                                
+ MILLIONS UPON                                              
+ MINDS OPENLY                                               
+ MISERIES OF                                                
+ MOMENT IS                                                  
+ MOMENT IT                                                  
+ MOMENT ON                                                  
+ MOST IMPORTANTLY                                           
+ MOTHERS AND                                                
+ MOUNTAIN AND                                               
+ MOUNTAIN TO                                                
+ MOVEMENT IS                                                
+ MOVEMENT THE                                               
+ MUCH UNREALIZED                                            
+ MUST PROTECT                                               
+ MUST SPEAK                                                 
+ MUST THINK                                                 
+ MY BODY                                                    
+ MYSTERIES OF                                               
+ NATION AGAIN                                               
+ NATION AN                                                  
+ NATION AND                                                 
+ NATION EXISTS                                              
+ NATION IS                                                  
+ NATION WE                                                  
+ NATIONAL EFFORT                                            
+ NATIONAL PRIDE                                             
+ NATIONS BORDERS                                            
+ NATIONS OF                                                 
+ NATIONS TO                                                 
+ NEAR AND                                                   
+ NEBRASKA THEY                                              
+ NEIGHBORHOODS FOR                                          
+ NEVER BE                                                   
+ NEVER BEFORE                                               
+ NEVER DOING                                                
+ NEVER EVER                                                 
+ NEVER FORGET                                               
+ NEVER SEEN                                                 
+ NEW DECREE                                                 
+ NEW MILLENNIUM                                             
+ NEW NATIONAL                                               
+ NEW ONES                                                   
+ NEW ROADS                                                  
+ NEW VISION                                                 
+ NIGHT SKY                                                  
+ NO ACTION                                                  
+ NO CHALLENGE                                               
+ NO FEAR                                                    
+ NO ROOM                                                    
+ NOT EVEN                                                   
+ NOT FAIL                                                   
+ NOT LET                                                    
+ NOT MERELY                                                 
+ NOT SEEK                                                   
+ NOT SHARE                                                  
+ NOT THE                                                    
+ NOT WHICH                                                  
+ NOW ARRIVES                                                
+ NOW BECAUSE                                                
+ NOW JOINED                                                 
+ NOW YOU                                                    
+ OBAMA AND                                                  
+ OBAMA FELLOW                                               
+ OBAMA FOR                                                  
+ OCEAN HEAR                                                 
+ OCEAN TO                                                   
+ OF ACTION                                                  
+ OF ALL                                                     
+ OF ALLEGIANCE                                              
+ OF DETROIT                                                 
+ OF DISEASE                                                 
+ OF DOLLARS                                                 
+ OF GOVERNMENT                                              
+ OF KNOWLEDGE                                               
+ OF MILLIONS                                                
+ OF NEBRASKA                                                
+ OF OFFICE                                                  
+ OF PATRIOTS                                                
+ OF SO                                                      
+ OF SPACE                                                   
+ OF TOMORROW                                                
+ OF WELFARE                                                 
+ OF WHICH                                                   
+ OFF OF                                                     
+ OFFICE I                                                   
+ OLD ALLIANCES                                              
+ OLD WISDOM                                                 
+ ON ANYONE                                                  
+ ON FOREIGN                                                 
+ ON IMMIGRATION                                             
+ ON ITS                                                     
+ ON TAXES                                                   
+ ON THESE                                                   
+ ON TRADE                                                   
+ ONE ADMINISTRATION                                         
+ ONE BY                                                     
+ ONE GLORIOUS                                               
+ ONE HEART                                                  
+ ONE HOME                                                   
+ ONE NATION                                                 
+ ONE PARTY                                                  
+ ONE THE                                                    
+ ONES AND                                                   
+ ONLY LIVING                                                
+ ONLY TO                                                    
+ OPEN YOUR                                                  
+ OPENLY DEBATE                                              
+ OR BROWN                                                   
+ OR FROM                                                    
+ OR THE                                                     
+ OR WHITE                                                   
+ ORDERLY AND                                                
+ OTHER NATIONS                                              
+ OTHER WHEN                                                 
+ OUR AMERICAN                                               
+ OUR CITIZENS                                               
+ OUR COMPANIES                                              
+ OUR DISAGREEMENTS                                          
+ OUR DIVISIONS                                              
+ OUR INNER                                                  
+ OUR MIDDLE                                                 
+ OUR MINDS                                                  
+ OUR NATION                                                 
+ OUR OWN                                                    
+ OUR PAIN                                                   
+ OUR POLITICS                                               
+ OUR PRODUCTS                                               
+ OUR SHORES                                                 
+ OUR SIGHTS                                                 
+ OUR SOLDIERS                                               
+ OUR SOULS                                                  
+ OUR SUCCESS                                                
+ OUR WAY                                                    
+ OUR WEALTH                                                 
+ OUR WONDERFUL                                              
+ OUR YOUNG                                                  
+ OUT THE                                                    
+ OVER NOW                                                   
+ OVER THE                                                   
+ OVERSEAS WHILE                                             
+ OWN AND                                                    
+ OWN INTERESTS                                              
+ PAIN IS                                                    
+ PAIN THEIR                                                 
+ PART OF                                                    
+ PARTY CONTROLS                                             
+ PARTY TO                                                   
+ PAST AND                                                   
+ PAST INAUGURATION                                          
+ PATRIOTISM THERE                                           
+ PATRIOTS WE                                                
+ PEACEFUL TRANSFER                                          
+ PEOPLE BECAME                                              
+ PEOPLE DID                                                 
+ PEOPLE HAVE                                                
+ PEOPLE JANUARY                                             
+ PEOPLE LIVE                                                
+ PEOPLE OF                                                  
+ PEOPLE OFF                                                 
+ PEOPLE TOGETHER                                            
+ PEOPLE WORDS                                               
+ PLAINS OF                                                  
+ PLEASANT IT                                                
+ POLITICIANS PROSPERED                                      
+ POLITICIANS WHO                                            
+ POLITICS WILL                                              
+ POTENTIAL THIS                                             
+ POVERTY IN                                                 
+ POWER AND                                                  
+ PREJUDICE THE                                              
+ PRESIDENT BUSH                                             
+ PRESIDENT CARTER                                           
+ PRESIDENT CLINTON                                          
+ PRIDE WILL                                                 
+ PRODUCTS STEALING                                          
+ PROMISE FOR                                                
+ PROSPER AGAIN                                              
+ PROSPERED BUT                                              
+ PROSPERITY AND                                             
+ PROTECT OUR                                                
+ PROTECTED AND                                              
+ PROTECTED ITSELF                                           
+ PROTECTED WE                                               
+ PROTECTION WILL                                            
+ PROUD AGAIN                                                
+ PUBLIC BUT                                                 
+ PURSUE SOLIDARITY                                          
+ PUT THEIR                                                  
+ RADICAL ISLAMIC                                            
+ RAILWAYS ALL                                               
+ RATHER TO                                                  
+ RAVAGES OF                                                 
+ READY TO                                                   
+ REALITY EXISTS                                             
+ REAPED THE                                                 
+ REASONABLE DEMANDS                                         
+ REBUILD OUR                                                
+ REBUILDING OUR                                             
+ RED BLOOD                                                  
+ REDISCOVER OUR                                             
+ REDISTRIBUTED ACROSS                                       
+ REFUSING TO                                                
+ REINFORCE OLD                                              
+ REMEMBER THAT                                              
+ REMEMBERED AS                                              
+ RESTORE ITS                                                
+ REWARDS OF                                                 
+ RICH WHILE                                                 
+ RIGHT OF                                                   
+ RIGHTEOUS PUBLIC                                           
+ RIPPED FROM                                                
+ ROADS AND                                                  
+ ROBBED OUR                                                 
+ ROBERTS PRESIDENT                                          
+ ROOM FOR                                                   
+ RULERS OF                                                  
+ RULES BUY                                                  
+ RUSTEDOUT FACTORIES                                        
+ SAD DEPLETION                                              
+ SAFE AGAIN                                                 
+ SAFE NEIGHBORHOODS                                         
+ SALUTE THE                                                 
+ SAME ALMIGHTY                                              
+ SAME DREAMS                                                
+ SAME GLORIOUS                                              
+ SAME GREAT                                                 
+ SAME NIGHT                                                 
+ SAME RED                                                   
+ SCATTERED LIKE                                             
+ SCHOOLS FOR                                                
+ SEEK FRIENDSHIP                                            
+ SEEK TO                                                    
+ SEEN BEFORE                                                
+ SERVE ITS                                                  
+ SHARE IN                                                   
+ SHARE ONE                                                  
+ SHINE AS                                                   
+ SHORES WITH                                                
+ SHOULD BE                                                  
+ SHUTTERED AND                                              
+ SIGHTS AND                                                 
+ SIMPLE RULES                                               
+ SKY THEY                                                   
+ SMALL AND                                                  
+ SMALL GROUP                                                
+ SO MUCH                                                    
+ SO TO                                                      
+ SO WITH                                                    
+ SOLDIERS WILL                                              
+ SOLIDARITY WHEN                                            
+ SOULS LIFT                                                 
+ SPACE TO                                                   
+ SPEAK OUR                                                  
+ SPECIAL MEANING                                            
+ SPEECH LIBRARY                                             
+ SPENT TRILLIONS                                            
+ SPIRIT OF                                                  
+ SPRAWL OF                                                  
+ STAND AT                                                   
+ START WINNING                                              
+ STARTING RIGHT                                             
+ STEALING OUR                                               
+ STEPS TO                                                   
+ STIR OUR                                                   
+ STOLEN TOO                                                 
+ STRENGTH AND                                               
+ STRENGTH I                                                 
+ STRIVING WE                                                
+ STRONG AGAIN                                               
+ STRUGGLING FAMILIES                                        
+ STUDENTS DEPRIVED                                          
+ SUBSIDIZED THE                                             
+ SUCCESS WE                                                 
+ SUCCESS WILL                                               
+ SYSTEM FLUSH                                               
+ TAKE TODAY                                                 
+ TALK AND                                                   
+ TALK IS                                                    
+ TAXES ON                                                   
+ TECHNOLOGIES OF                                            
+ TELL YOU                                                   
+ TELLS US                                                   
+ TENS OF                                                    
+ TERRORISM WHICH                                            
+ THAT ALL                                                   
+ THAT HAVE                                                  
+ THAT IS                                                    
+ THAT IT                                                    
+ THAT OLD                                                   
+ THAT WHETHER                                               
+ THE AMERICAN                                               
+ THE ARMIES                                                 
+ THE BEDROCK                                                
+ THE BIBLE                                                  
+ THE BIRTH                                                  
+ THE BREATH                                                 
+ THE CENTER                                                 
+ THE CIVILIZED                                              
+ THE COST                                                   
+ THE COURSE                                                 
+ THE CRIME                                                  
+ THE DAY                                                    
+ THE ENERGIES                                               
+ THE ENTIRE                                                 
+ THE ESTABLISHMENT                                          
+ THE EXPENSE                                                
+ THE FACE                                                   
+ THE FORGOTTEN                                              
+ THE FUTURE                                                 
+ THE GREAT                                                  
+ THE HEART                                                  
+ THE HORIZON                                                
+ THE HOUR                                                   
+ THE JOB                                                    
+ THE JOBS                                                   
+ THE JUST                                                   
+ THE LANDSCAPE                                              
+ THE LIKES                                                  
+ THE MILLIONS                                               
+ THE MISERIES                                               
+ THE MYSTERIES                                              
+ THE NATIONS                                                
+ THE OATH                                                   
+ THE ORDERLY                                                
+ THE RAVAGES                                                
+ THE REWARDS                                                
+ THE RIGHT                                                  
+ THE RULERS                                                 
+ THE TENS                                                   
+ THE TIME                                                   
+ THE UNDERSTANDING                                          
+ THE URBAN                                                  
+ THE VERY                                                   
+ THE WAY                                                    
+ THE WINDSWEPT                                              
+ THEIR CHILDREN                                             
+ THEIR DREAMS                                               
+ THEIR FAMILIES                                             
+ THEIR GRACIOUS                                             
+ THEIR HEART                                                
+ THEIR HOMES                                                
+ THEIR OWN                                                  
+ THEIR PAIN                                                 
+ THEIR SUCCESS                                              
+ THEIR TRIUMPHS                                             
+ THEIR VICTORIES                                            
+ THEMSELVES THESE                                           
+ THEN REDISTRIBUTED                                         
+ THERE IS                                                   
+ THERE SHOULD                                               
+ THERE WAS                                                  
+ THESE ARE                                                  
+ THESE STEPS                                                
+ THESE WORDS                                                
+ THEY ARE                                                   
+ THEY CELEBRATED                                            
+ THEY FILL                                                  
+ THEY HAVE                                                  
+ THEY LOOK                                                  
+ THINK BIG                                                  
+ THIS AMERICAN                                              
+ THIS DAY                                                   
+ THIS MOVEMENT                                              
+ THIS NATION                                                
+ THIS THE                                                   
+ THIS TRANSITION                                            
+ THOUGHT ABOUT                                              
+ THRIVE AND                                                 
+ THROUGH OUR                                                
+ THROUGHOUT THIS                                            
+ TIME FOR                                                   
+ TIME TO                                                    
+ TO BECOME                                                  
+ TO BENEFIT                                                 
+ TO CARRY                                                   
+ TO CELEBRATE                                               
+ TO COME                                                    
+ TO DEFEND                                                  
+ TO EACH                                                    
+ TO EVERYONE                                                
+ TO FOLLOW                                                  
+ TO FREE                                                    
+ TO GREAT                                                   
+ TO HARNESS                                                 
+ TO IMPOSE                                                  
+ TO LET                                                     
+ TO MOUNTAIN                                                
+ TO OCEAN                                                   
+ TO OUR                                                     
+ TO PATRIOTISM                                              
+ TO PRESIDENT                                               
+ TO PUT                                                     
+ TO REBUILD                                                 
+ TO REMEMBER                                                
+ TO RESTORE                                                 
+ TO SERVE                                                   
+ TO UNLOCK                                                  
+ TO WORK                                                    
+ TODAY AND                                                  
+ TODAY ARE                                                  
+ TODAY IS                                                   
+ TODAY WE                                                   
+ TODAYS CEREMONY                                            
+ TOGETHER IN                                                
+ TOMBSTONES ACROSS                                          
+ TOMORROW A                                                 
+ TOO LONG                                                   
+ TOTAL ALLEGIANCE                                           
+ TOTALLY UNSTOPPABLE                                        
+ TRADE ON                                                   
+ TRANSFER OF                                                
+ TRANSITION THEY                                            
+ TRAPPED IN                                                 
+ TRILLIONS OF                                               
+ TRIUMPHS AND                                               
+ TRIUMPHS HAVE                                              
+ TRULY MATTERS                                              
+ TUNNELS AND                                                
+ TWO SIMPLE                                                 
+ UNDERSTAND THAT                                            
+ UNDERSTANDING THAT                                         
+ UNITE THE                                                  
+ UNITED AMERICA                                             
+ UNITY WE                                                   
+ UNLOCK THE                                                 
+ UNREALIZED POTENTIAL                                       
+ UNSTOPPABLE THERE                                          
+ UP AT                                                      
+ UPON MILLIONS                                              
+ URBAN SPRAWL                                               
+ US ALONG                                                   
+ US HOW                                                     
+ VERY SAD                                                   
+ VERY SPECIAL                                               
+ VICTORIES HAVE                                             
+ VICTORIES THEIR                                            
+ VISION WILL                                                
+ VOICE YOUR                                                 
+ WANT GREAT                                                 
+ WAS LITTLE                                                 
+ WASHINGTON DC                                              
+ WASHINGTON FLOURISHED                                      
+ WATCHING ALL                                               
+ WAY OF                                                     
+ WAY TOGETHER                                               
+ WE ASSEMBLED                                               
+ WE GATHER                                                  
+ WE SHARE                                                   
+ WE STAND                                                   
+ WE THE                                                     
+ WE UNDERSTAND                                              
+ WEALTH AND                                                 
+ WEALTH OF                                                  
+ WEALTH POLITICIANS                                         
+ WEALTH STRENGTH                                            
+ WEALTHY AGAIN                                              
+ WELFARE AND                                                
+ WEVE DEFENDED                                              
+ WEVE ENRICHED                                              
+ WEVE MADE                                                  
+ WHAT TRULY                                                 
+ WHEN AMERICA                                               
+ WHEN GODS                                                  
+ WHEN YOU                                                   
+ WHETHER A                                                  
+ WHETHER OUR                                                
+ WHETHER WE                                                 
+ WHICH LEAVES                                               
+ WHICH PARTY                                                
+ WHICH THE                                                  
+ WHICH WE                                                   
+ WHILE ALLOWING                                             
+ WHILE AMERICAS                                             
+ WHILE REFUSING                                             
+ WHILE THEY                                                 
+ WHITE WE                                                   
+ WHO ARE                                                    
+ WILL ALWAYS                                                
+ WILL BUILD                                                 
+ WILL CONFRONT                                              
+ WILL DEFINE                                                
+ WILL DETERMINE                                             
+ WILL ERADICATE                                             
+ WILL FACE                                                  
+ WILL FIGHT                                                 
+ WILL FOLLOW                                                
+ WILL FOREVER                                               
+ WILL GOVERN                                                
+ WILL LEAD                                                  
+ WILL NO                                                    
+ WILL NOT                                                   
+ WILL REDISCOVER                                            
+ WILL REINFORCE                                             
+ WILL SEEK                                                  
+ WILL START                                                 
+ WILL STIR                                                  
+ WILL THRIVE                                                
+ WINDSWEPT PLAINS                                           
+ WINNING AGAIN                                              
+ WINNING LIKE                                               
+ WISDOM OUR                                                 
+ WITH AMERICAN                                              
+ WITH CASH                                                  
+ WITH EVERY                                                 
+ WITH NOT                                                   
+ WONDERFUL NATION                                           
+ WORDS FROM                                                 
+ WORDS YOU                                                  
+ WORK REBUILDING                                            
+ WORKERS AND                                                
+ WORKERS LEFT                                               
+ WORLD AGAINST                                              
+ WORLD FOR                                                  
+ WORLD HAS                                                  
+ WORLD THANK                                                
+ YEARS TO                                                   
+ YEARS WE                                                   
+ YES TOGETHER                                               
+ YOU AND                                                    
+ YOU CAME                                                   
+ YOU DOWN                                                   
+ YOU GOD                                                    
+ YOU NOW                                                    
+ YOU OPEN                                                   
+ YOU THE                                                    
+ YOU WE                                                     
+ YOU WILL                                                   
+ YOU WITH                                                   
+ YOUNG AND                                                  
+ YOUR CELEBRATION                                           
+ YOUR COUNTRY                                               
+ YOUR COURAGE                                               
+ YOUR DAY                                                   
+ YOUR DREAMS                                                
+ YOUR HEART                                                 
+ YOUR HOPES                                                 
+ YOUR MOMENT                                                
+ YOUR TRIUMPHS                                              
+ YOUR VICTORIES                                             
+ YOUR VOICE                                                 

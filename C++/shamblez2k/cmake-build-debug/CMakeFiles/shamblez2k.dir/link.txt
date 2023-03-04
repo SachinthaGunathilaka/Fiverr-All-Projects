@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/shamblez2k.dir/main.cpp.o CMakeFiles/shamblez2k.dir/BST.cpp.o CMakeFiles/shamblez2k.dir/a.c.o -o shamblez2k.exe -Wl,--out-implib,libshamblez2k.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,7 @@
+Explanation: The first person takes times 3 and 5 for jobs 1 and 2 respectively.
+The second person takes times 10 and 1 for jobs 1 and 2 respectively.
+We can see that the optimal assignment will be to give job 1 to person 1 and job 2 to person 2.
+After getting each permutation we will iterate through the N jobs and calculate the
+time taken to complete the task.
+After calculating all the time taken we will we will
+output the minimum time taken to complete the N jobs from all the permutations.

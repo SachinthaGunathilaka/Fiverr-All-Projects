@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614/Main.cpp
+iostream
+-
+bst.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614/bst.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614/bst.cpp
+bst.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614/bst.h
+cstdlib
+-
+iostream
+-
+vector
+-
+algorithm
+-
+string
+-
+stack
+-
+queue
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/kaylagarcia614/bst.h
+string
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/mattkerrigan.dir/MST.cpp.o -o mattkerrigan.exe -Wl,--out-implib,libmattkerrigan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

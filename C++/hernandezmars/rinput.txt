@@ -1,0 +1,3 @@
+102234 962 2
+Data_Structures ICT283 3 75
+Priciples_of_Comp_Sci ICT167 3 98

@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/pramatheshmishr.dir/main.cpp.o -o pramatheshmishr.exe -Wl,--out-implib,libpramatheshmishr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

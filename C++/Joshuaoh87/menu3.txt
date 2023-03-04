@@ -1,0 +1,57 @@
+Please select your option: 3
+Please enter a specific year: 2014
+2014
+January: No Data.
+February: No Data.
+March: No Data.
+April: No Data.
+May: No Data.
+June: No Data.
+July: No Data.
+August: No Data.
+September: No Data.
+October: No Data.
+November: No Data.
+December: No Data.
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 3
+Please enter a specific year: 2015
+2015
+January: No Data.
+February: No Data.
+March: 185.7 kWh/m2.
+April: 125.6 kWh/m2.
+May: 107.1 kWh/m2.
+June: 81.6 kWh/m2.
+July: 79.4 kWh/m2.
+August: 101.8 kWh/m2.
+September: 167.1 kWh/m2.
+October: 191.1 kWh/m2.
+November: 239.0 kWh/m2.
+December: 265.5 kWh/m2.
+Please select the following:
+1. Calculate the average wind speed and average ambient air temperature for a specified month and year
+2. Calculate the average wind speed and average ambient air temperature for each month of a specified year.
+3. Calculate the total solar radiation in kWh/m2 for each month of a specified year.
+4. Write to a file the average wind speed, average ambient air temperature and total solar radiation in kWh/m2 for each month of a specified year
+5. Exit the program.
+Please select your option: 3
+Please enter a specific year: 2016
+2016
+January: 223.2 kWh/m2.
+February: 225.5 kWh/m2.
+March: 1.0 kWh/m2.
+April: No Data.
+May: No Data.
+June: No Data.
+July: No Data.
+August: No Data.
+September: No Data.
+October: No Data.
+November: No Data.
+December: No Data.

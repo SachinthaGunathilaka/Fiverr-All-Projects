@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Kaylagarcia614 3/Bard.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+LinkedList.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Kaylagarcia614 3/LinkedList.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Kaylagarcia614 3/LinkedList.h
+Node.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Kaylagarcia614 3/Node.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Kaylagarcia614 3/Node.h
+string
+-
+

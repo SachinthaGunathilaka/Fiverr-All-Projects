@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Directory.h
+Entry.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Entry.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Entry.h
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/File.h
+Entry.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Entry.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/main.cc
+Entry.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Entry.h
+Directory.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/Directory.h
+File.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/rhkdry123/File.h
+sstream
+-
+string
+-
+

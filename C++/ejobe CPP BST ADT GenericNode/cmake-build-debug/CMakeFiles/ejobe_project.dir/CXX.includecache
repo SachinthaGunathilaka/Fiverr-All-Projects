@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/ADT.h
+BST.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/BST.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/BST.h
+iomanip
+-
+node.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/node.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/main.cpp
+iostream
+-
+ADT.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/ADT.h
+fstream
+-
+sstream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/ejobe project/node.h
+iostream
+-
+

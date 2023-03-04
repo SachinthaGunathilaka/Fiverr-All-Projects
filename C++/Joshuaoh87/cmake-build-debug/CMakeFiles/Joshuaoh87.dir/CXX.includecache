@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Bst.h
+iostream
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Date.h
+iostream
+-
+string
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Main.cpp
+iostream
+-
+string
+-
+iomanip
+-
+climits
+-
+Date.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Date.h
+Time.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Time.h
+Windlog.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Windlog.h
+Bst.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Bst.h
+map
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Old Files/Vector.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Time.h
+iostream
+-
+string
+-
+iomanip
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Windlog.cpp
+Windlog.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Windlog.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Windlog.h
+iostream
+-
+string
+-
+fstream
+-
+Date.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Date.h
+Time.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Time.h
+Old Files/Vector.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Joshuaoh87/Old Files/Vector.h
+

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/LinkedList.cpp
+iostream
+-
+LinkedList.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/LinkedList.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/LinkedList.h
+Node.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/Node.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/Node.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/main2.cpp
+LinkedList.cpp
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Yushinkim930/Part2/LinkedList.cpp
+

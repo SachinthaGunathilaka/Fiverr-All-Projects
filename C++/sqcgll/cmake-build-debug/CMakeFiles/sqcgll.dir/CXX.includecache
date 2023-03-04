@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/sqcgll/Header.h
+iostream
+-
+fstream
+-
+iomanip
+-
+cstring
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/sqcgll/main.cpp
+iostream
+-
+string
+-
+Header.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/sqcgll/Header.h
+

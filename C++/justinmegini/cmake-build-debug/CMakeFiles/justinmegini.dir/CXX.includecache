@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/ClassRoom.cpp
+ClassRoom.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/ClassRoom.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/ClassRoom.h
+iostream
+-
+fstream
+-
+iomanip
+-
+string
+-
+Student.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/Student.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/Student.cpp
+Student.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/Student.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/Student.h
+iostream
+-
+string
+-
+iomanip
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/studentMain.cpp
+iostream
+-
+ClassRoom.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/justinmegini/ClassRoom.h
+

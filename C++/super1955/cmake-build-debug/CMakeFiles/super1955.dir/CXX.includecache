@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/Card.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/Dealer.h
+Card.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/Card.h
+vector
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/main-6.cpp
+iostream
+-
+Dealer.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/Dealer.h
+Card.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/super1955/Card.h
+stdlib.h
+-
+time.h
+-
+

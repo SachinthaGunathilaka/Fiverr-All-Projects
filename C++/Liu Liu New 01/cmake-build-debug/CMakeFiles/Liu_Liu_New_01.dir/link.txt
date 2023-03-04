@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Liu_Liu_New_01.dir/main.cpp.o CMakeFiles/Liu_Liu_New_01.dir/string.cpp.o -o Liu_Liu_New_01.exe -Wl,--out-implib,libLiu_Liu_New_01.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

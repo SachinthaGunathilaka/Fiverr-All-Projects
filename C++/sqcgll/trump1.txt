@@ -1,0 +1,546 @@
+The file: trump1.txt contains 1439 Words.
+There are 543 unique terms.
+
+ AND                                                        	74
+ THE                                                        	71
+ OF                                                         	48
+ OUR                                                        	48
+ WE                                                         	46
+ WILL                                                       	40
+ TO                                                         	37
+ IS                                                         	21
+ AMERICA                                                    	16
+ A                                                          	15
+ FOR                                                        	15
+ ARE                                                        	14
+ IN                                                         	14
+ BUT                                                        	13
+ ALL                                                        	12
+ AMERICAN                                                   	12
+ BE                                                         	12
+ FROM                                                       	12
+ YOU                                                        	12
+ THEIR                                                      	11
+ YOUR                                                       	11
+ IT                                                         	10
+ NOT                                                        	10
+ THIS                                                       	10
+ AGAIN                                                      	9
+ COUNTRY                                                    	9
+ PEOPLE                                                     	9
+ ONE                                                        	8
+ THAT                                                       	8
+ WITH                                                       	8
+ EVERY                                                      	7
+ ON                                                         	7
+ BACK                                                       	6
+ BY                                                         	6
+ GREAT                                                      	6
+ HAS                                                        	6
+ NATION                                                     	6
+ NEVER                                                      	6
+ NEW                                                        	6
+ NO                                                         	6
+ NOW                                                        	6
+ SAME                                                       	6
+ WHILE                                                      	6
+ WORLD                                                      	6
+ ACROSS                                                     	5
+ AT                                                         	5
+ DREAMS                                                     	5
+ HAVE                                                       	5
+ MAKE                                                       	5
+ NATIONS                                                    	5
+ OTHER                                                      	5
+ PRESIDENT                                                  	5
+ PROTECTED                                                  	5
+ RIGHT                                                      	5
+ THEY                                                       	5
+ AMERICANS                                                  	4
+ AS                                                         	4
+ BEEN                                                       	4
+ BRING                                                      	4
+ CITIZENS                                                   	4
+ EVERYONE                                                   	4
+ HEART                                                      	4
+ HERE                                                       	4
+ ITS                                                        	4
+ JOBS                                                       	4
+ OR                                                         	4
+ POWER                                                      	4
+ TODAY                                                      	4
+ TOGETHER                                                   	4
+ WEALTH                                                     	4
+ WHICH                                                      	4
+ AN                                                         	3
+ BORDERS                                                    	3
+ CAPITAL                                                    	3
+ COUNTRIES                                                  	3
+ DAY                                                        	3
+ DO                                                         	3
+ FACTORIES                                                  	3
+ FAMILIES                                                   	3
+ FIRST                                                      	3
+ FOREIGN                                                    	3
+ GOD                                                        	3
+ GOVERNMENT                                                 	3
+ I                                                          	3
+ LEFT                                                       	3
+ LET                                                        	3
+ MANY                                                       	3
+ MILLIONS                                                   	3
+ MOMENT                                                     	3
+ MUST                                                       	3
+ OBAMA                                                      	3
+ SO                                                         	3
+ THERE                                                      	3
+ THESE                                                      	3
+ TOO                                                        	3
+ UNITED                                                     	3
+ WEVE                                                       	3
+ WHEN                                                       	3
+ WHETHER                                                    	3
+ ABOUT                                                      	2
+ ACTION                                                     	2
+ ALLEGIANCE                                                 	2
+ ALWAYS                                                     	2
+ ANOTHER                                                    	2
+ ANYONE                                                     	2
+ BECAUSE                                                    	2
+ BEFORE                                                     	2
+ BELONGS                                                    	2
+ BLESS                                                      	2
+ BREATH                                                     	2
+ CHILDREN                                                   	2
+ CITY                                                       	2
+ DESTINY                                                    	2
+ DONE                                                       	2
+ EARTH                                                      	2
+ EVEN                                                       	2
+ EXISTS                                                     	2
+ FACE                                                       	2
+ FIGHT                                                      	2
+ FOLLOW                                                     	2
+ FORGOTTEN                                                  	2
+ GET                                                        	2
+ GLORIOUS                                                   	2
+ GOOD                                                       	2
+ INDUSTRY                                                   	2
+ LAND                                                       	2
+ LIFE                                                       	2
+ LIKE                                                       	2
+ LONG                                                       	2
+ LONGER                                                     	2
+ LOYALTY                                                    	2
+ MADE                                                       	2
+ MEN                                                        	2
+ MILITARY                                                   	2
+ MOUNTAIN                                                   	2
+ MOVEMENT                                                   	2
+ NATIONAL                                                   	2
+ OATH                                                       	2
+ OCEAN                                                      	2
+ OLD                                                        	2
+ ONLY                                                       	2
+ OVER                                                       	2
+ OWN                                                        	2
+ PAIN                                                       	2
+ PARTY                                                      	2
+ PAST                                                       	2
+ POLITICIANS                                                	2
+ SAFE                                                       	2
+ SEEK                                                       	2
+ SHARE                                                      	2
+ SMALL                                                      	2
+ STATES                                                     	2
+ STOPS                                                      	2
+ STRENGTH                                                   	2
+ SUCCESS                                                    	2
+ TALK                                                       	2
+ THANK                                                      	2
+ TIME                                                       	2
+ TRANSFERRING                                               	2
+ TRIUMPHS                                                   	2
+ US                                                         	2
+ VERY                                                       	2
+ VICTORIES                                                  	2
+ WASHINGTON                                                 	2
+ WAY                                                        	2
+ WINNING                                                    	2
+ WOMEN                                                      	2
+ WORDS                                                      	2
+ WORKERS                                                    	2
+ YEARS                                                      	2
+ 2017                                                       
+ 20TH                                                       
+ ACCEPT                                                     
+ ADMINISTRATION                                             
+ AFFAIRS                                                    
+ AGAINST                                                    
+ AID                                                        
+ AIRPORTS                                                   
+ ALLIANCES                                                  
+ ALLOWING                                                   
+ ALMIGHTY                                                   
+ ALONG                                                      
+ AMERICAS                                                   
+ ANYTHING                                                   
+ ARMIES                                                     
+ ARRIVES                                                    
+ ASSEMBLED                                                  
+ BEAUTIFUL                                                  
+ BECAME                                                     
+ BECOME                                                     
+ BEDROCK                                                    
+ BEHIND                                                     
+ BENEFIT                                                    
+ BIBLE                                                      
+ BIG                                                        
+ BIGGER                                                     
+ BIRTH                                                      
+ BLACK                                                      
+ BLEED                                                      
+ BLOOD                                                      
+ BODY                                                       
+ BORN                                                       
+ BORNE                                                      
+ BRIDGES                                                    
+ BROWN                                                      
+ BUILD                                                      
+ BUSH                                                       
+ BUY                                                        
+ CAME                                                       
+ CAN                                                        
+ CANNOT                                                     
+ CARNAGE                                                    
+ CARRY                                                      
+ CARTER                                                     
+ CASH                                                       
+ CELEBRATE                                                  
+ CELEBRATED                                                 
+ CELEBRATION                                                
+ CENTER                                                     
+ CEREMONY                                                   
+ CHALLENGE                                                  
+ CHALLENGES                                                 
+ CHANGES                                                    
+ CHIEF                                                      
+ CHILD                                                      
+ CITIES                                                     
+ CIVILIZED                                                  
+ CLASS                                                      
+ CLINTON                                                    
+ CLOSED                                                     
+ COME                                                       
+ COMPANIES                                                  
+ COMPLAINING                                                
+ COMPLETELY                                                 
+ CONFIDENCE                                                 
+ CONFRONT                                                   
+ CONSTANTLY                                                 
+ CONTROLLED                                                 
+ CONTROLS                                                   
+ CONVICTION                                                 
+ COST                                                       
+ COURAGE                                                    
+ COURSE                                                     
+ CREATOR                                                    
+ CRIME                                                      
+ CRUCIAL                                                    
+ DC                                                         
+ DEBATE                                                     
+ DECADES                                                    
+ DECAY                                                      
+ DECISION                                                   
+ DECREE                                                     
+ DEFEND                                                     
+ DEFENDED                                                   
+ DEFINE                                                     
+ DEMANDS                                                    
+ DEPLETION                                                  
+ DEPRIVED                                                   
+ DESTROYING                                                 
+ DETERMINE                                                  
+ DETROIT                                                    
+ DID                                                        
+ DIFFERENT                                                  
+ DISAGREEMENTS                                              
+ DISAPPEARED                                                
+ DISEASE                                                    
+ DISREPAIR                                                  
+ DIVISIONS                                                  
+ DOING                                                      
+ DOLLARS                                                    
+ DOWN                                                       
+ DREAM                                                      
+ DRUGS                                                      
+ EACH                                                       
+ EDUCATION                                                  
+ EFFORT                                                     
+ EMPTY                                                      
+ ENERGIES                                                   
+ ENFORCEMENT                                                
+ ENJOY                                                      
+ ENRICHED                                                   
+ ENTIRE                                                     
+ ERADICATE                                                  
+ ESTABLISHMENT                                              
+ EVER                                                       
+ EXAMPLE                                                    
+ EXPENSE                                                    
+ FAIL                                                       
+ FALLEN                                                     
+ FAR                                                        
+ FEAR                                                       
+ FELLOW                                                     
+ FILL                                                       
+ FINALLY                                                    
+ FLAG                                                       
+ FLOURISHED                                                 
+ FLUSH                                                      
+ FOREVER                                                    
+ FORGET                                                     
+ FORM                                                       
+ FORWARD                                                    
+ FOUR                                                       
+ FREE                                                       
+ FREEDOMS                                                   
+ FRIENDSHIP                                                 
+ FUTURE                                                     
+ GANGS                                                      
+ GATHER                                                     
+ GATHERED                                                   
+ GIVING                                                     
+ GODS                                                       
+ GOING                                                      
+ GOODNESS                                                   
+ GOODWILL                                                   
+ GOVERN                                                     
+ GRACIOUS                                                   
+ GRATEFUL                                                   
+ GROUP                                                      
+ GUIDE                                                      
+ HALL                                                       
+ HANDS                                                      
+ HARDSHIPS                                                  
+ HARNESS                                                    
+ HEAL                                                       
+ HEAR                                                       
+ HEARD                                                      
+ HIGHWAYS                                                   
+ HIRE                                                       
+ HISTORIC                                                   
+ HOME                                                       
+ HOMES                                                      
+ HONESTLY                                                   
+ HOPES                                                      
+ HORIZON                                                    
+ HOUR                                                       
+ HOW                                                        
+ HOWEVER                                                    
+ IGNORED                                                    
+ IMMIGRATION                                                
+ IMPORTANTLY                                                
+ IMPOSE                                                     
+ INAUGURATION                                               
+ INDUSTRIES                                                 
+ INFRASTRUCTURE                                             
+ INFUSED                                                    
+ INNER                                                      
+ INTERESTS                                                  
+ INTO                                                       
+ ISLAMIC                                                    
+ ISSUING                                                    
+ ITSELF                                                     
+ JANUARY                                                    
+ JOB                                                        
+ JOINED                                                     
+ JUST                                                       
+ JUSTICE                                                    
+ KNOWLEDGE                                                  
+ LABOR                                                      
+ LADY                                                       
+ LANDSCAPE                                                  
+ LARGE                                                      
+ LAW                                                        
+ LEAD                                                       
+ LEAVES                                                     
+ LIBRARY                                                    
+ LIFT                                                       
+ LIKES                                                      
+ LISTENING                                                  
+ LITTLE                                                     
+ LIVE                                                       
+ LIVES                                                      
+ LIVING                                                     
+ LOOK                                                       
+ LOOKING                                                    
+ LOVE                                                       
+ MAGNIFICENT                                                
+ MAKING                                                     
+ MATCH                                                      
+ MATTERS                                                    
+ MEANING                                                    
+ MERELY                                                     
+ MICHELLE                                                   
+ MIDDLE                                                     
+ MILLENNIUM                                                 
+ MINDS                                                      
+ MISERIES                                                   
+ MOST                                                       
+ MOTHERS                                                    
+ MUCH                                                       
+ MY                                                         
+ MYSTERIES                                                  
+ NEAR                                                       
+ NEBRASKA                                                   
+ NEIGHBORHOODS                                              
+ NIGHT                                                      
+ OFF                                                        
+ OFFICE                                                     
+ ONES                                                       
+ OPEN                                                       
+ OPENLY                                                     
+ ORDERLY                                                    
+ OUT                                                        
+ OVERSEAS                                                   
+ PART                                                       
+ PATRIOTISM                                                 
+ PATRIOTS                                                   
+ PEACEFUL                                                   
+ PLAINS                                                     
+ PLEASANT                                                   
+ POLITICS                                                   
+ POTENTIAL                                                  
+ POVERTY                                                    
+ PREJUDICE                                                  
+ PRIDE                                                      
+ PRODUCTS                                                   
+ PROMISE                                                    
+ PROSPER                                                    
+ PROSPERED                                                  
+ PROSPERITY                                                 
+ PROTECT                                                    
+ PROTECTION                                                 
+ PROUD                                                      
+ PUBLIC                                                     
+ PURSUE                                                     
+ PUT                                                        
+ RADICAL                                                    
+ RAILWAYS                                                   
+ RATHER                                                     
+ RAVAGES                                                    
+ READY                                                      
+ REALITY                                                    
+ REAPED                                                     
+ REASONABLE                                                 
+ REBUILD                                                    
+ REBUILDING                                                 
+ RED                                                        
+ REDISCOVER                                                 
+ REDISTRIBUTED                                              
+ REFUSING                                                   
+ REINFORCE                                                  
+ REMEMBER                                                   
+ REMEMBERED                                                 
+ RESTORE                                                    
+ REWARDS                                                    
+ RICH                                                       
+ RIGHTEOUS                                                  
+ RIPPED                                                     
+ ROADS                                                      
+ ROBBED                                                     
+ ROBERTS                                                    
+ ROOM                                                       
+ RULERS                                                     
+ RULES                                                      
+ RUSTEDOUT                                                  
+ SAD                                                        
+ SALUTE                                                     
+ SCATTERED                                                  
+ SCHOOLS                                                    
+ SEEN                                                       
+ SERVE                                                      
+ SHINE                                                      
+ SHORES                                                     
+ SHOULD                                                     
+ SHUTTERED                                                  
+ SIGHTS                                                     
+ SIMPLE                                                     
+ SKY                                                        
+ SOLDIERS                                                   
+ SOLIDARITY                                                 
+ SOULS                                                      
+ SPACE                                                      
+ SPEAK                                                      
+ SPECIAL                                                    
+ SPEECH                                                     
+ SPENT                                                      
+ SPIRIT                                                     
+ SPRAWL                                                     
+ STAND                                                      
+ START                                                      
+ STARTING                                                   
+ STEALING                                                   
+ STEPS                                                      
+ STIR                                                       
+ STOLEN                                                     
+ STRIVING                                                   
+ STRONG                                                     
+ STRUGGLING                                                 
+ STUDENTS                                                   
+ SUBSIDIZED                                                 
+ SYSTEM                                                     
+ TAKE                                                       
+ TAXES                                                      
+ TECHNOLOGIES                                               
+ TELL                                                       
+ TELLS                                                      
+ TENS                                                       
+ TERRORISM                                                  
+ THEMSELVES                                                 
+ THEN                                                       
+ THINK                                                      
+ THOUGHT                                                    
+ THRIVE                                                     
+ THROUGH                                                    
+ THROUGHOUT                                                 
+ TODAYS                                                     
+ TOMBSTONES                                                 
+ TOMORROW                                                   
+ TOTAL                                                      
+ TOTALLY                                                    
+ TRADE                                                      
+ TRANSFER                                                   
+ TRANSITION                                                 
+ TRAPPED                                                    
+ TRILLIONS                                                  
+ TRULY                                                      
+ TUNNELS                                                    
+ TWO                                                        
+ UNDERSTAND                                                 
+ UNDERSTANDING                                              
+ UNITE                                                      
+ UNITY                                                      
+ UNLOCK                                                     
+ UNREALIZED                                                 
+ UNSTOPPABLE                                                
+ UP                                                         
+ UPON                                                       
+ URBAN                                                      
+ VISION                                                     
+ VOICE                                                      
+ WANT                                                       
+ WAS                                                        
+ WATCHING                                                   
+ WEALTHY                                                    
+ WELFARE                                                    
+ WHAT                                                       
+ WHITE                                                      
+ WHO                                                        
+ WINDSWEPT                                                  
+ WISDOM                                                     
+ WONDERFUL                                                  
+ WORK                                                       
+ YES                                                        
+ YOUNG                                                      

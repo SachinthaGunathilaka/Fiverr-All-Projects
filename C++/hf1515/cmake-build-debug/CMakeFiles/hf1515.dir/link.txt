@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/hf1515.dir/Task2.cpp.o -o hf1515.exe -Wl,--out-implib,libhf1515.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

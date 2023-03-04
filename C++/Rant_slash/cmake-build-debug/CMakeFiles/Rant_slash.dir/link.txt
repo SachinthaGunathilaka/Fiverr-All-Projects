@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Rant_slash.dir/main.cpp.o -o Rant_slash.exe -Wl,--out-implib,libRant_slash.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

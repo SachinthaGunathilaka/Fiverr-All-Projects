@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/Yoprabhu_3.dir/task1.cpp.o -o Yoprabhu_3.exe -Wl,--out-implib,libYoprabhu_3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
