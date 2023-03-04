@@ -1,0 +1,11 @@
+Completed Activity 1 all the tasks.
+   	Class PhoneBookEntry
+   	Class PhoneBook
+   	Class User
+
+Activity 2 (Optional).
+    	Allow duplicate names by uniquely identifying each entry based on address, namely use a map within a map
+        that maps entries as: “full name” → “address” → “entry” (i.e. Map<String, Map<String, PhoneBookEntry>>)
+    	Allow a further map that maps entries as: “number” → “entry” (namely users can search for entries
+        based on a given number)
+   	Add JUnit testing to ensure that no errors were introduced during development

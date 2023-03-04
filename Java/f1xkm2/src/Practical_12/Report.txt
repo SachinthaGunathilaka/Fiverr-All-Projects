@@ -1,0 +1,10 @@
+Completed Activity 1 all the tasks.
+    	Class Team
+    	Class FootballLeague
+    	Class Dashboard
+
+Completed Activity 2 (Optional) all the tasks.
+    	Add JUnit testing
+
+Activity 3 (Optional)
+    	Implement a Singly Linked List

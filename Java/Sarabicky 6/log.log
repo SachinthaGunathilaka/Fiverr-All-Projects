@@ -1,0 +1,8 @@
+1650396593911 --population=population.csv --properties=downsampled_properties.csv --log=log.log --covid=covid_data.json
+1650396593916 population.csv
+1650396593917 covid_data.json
+1650396594084 downsampled_properties.csv
+1650396597745 3
+1650396600788 full
+1650396615550 2021-11-05
+1650396620801 0

@@ -1,0 +1,12 @@
+Completed Activity 1 all the tasks.
+   	Takes input as a postfix expression
+   	Processes operators and operands (of the given postfix expression) left to right
+   	Uses a stack in order to calculate the postfix expression (as depicted above)
+   	Prints output that recreates the table ( "Method", "Return Value" and "Stack Contents")
+
+
+Completed Activity 2 (Optional) all the tasks.
+    	Add JUnit testing
+
+Activity 3 (Optional)
+    	Implement an array-based stack

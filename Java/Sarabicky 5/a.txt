@@ -1,0 +1,78 @@
+package edu.upenn.cit594.util;
+
+import edu.upenn.cit594.datamanagement.State;
+import edu.upenn.cit594.datamanagement.Tweet;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Objects;
+
+public class Data {
+
+    private static ArrayList<Tweet> tweets = new ArrayList<>();
+    private static ArrayList<Tweet> filteredTweets = new ArrayList<>();
+    private static ArrayList<State> states = new ArrayList<>();
+
+    public static void addTweet(Tweet tweet) {
+        tweets.add(tweet);
+    }
+
+    public static void addFilteredTweet(Tweet tweet) {
+        filteredTweets.add(tweet);
+    }
+
+    public static void addState(State state) {
+        states.add(state);
+    }
+
+    public static void IncrementFluTweets(State state) {
+        if (state == null)
+            return;
+        for (int i = 0; i < states.size(); i++) {
+            if (Objects.equals(states.get(i).getName(), state.getName())) {
+                states.get(i).incrementCount();
+                break;
+            }
+        }
+    }
+
+
+    public static ArrayList<Tweet> getTweets() {
+        return tweets;
+    }
+
+    public static ArrayList<Tweet> getFilteredTweets() {
+        return filteredTweets;
+    }
+
+    public static ArrayList<State> getStates() {
+        return states;
+    }
+
+}
+
+
+
+        /*
+        // Test regex
+        String [] texts = {"influence", "influenza", "!flu", "fluent", "flu2020", "flu4me&u", "flu", "FLU", "Flu", "fLU"};
+        boolean [] valids = {false, false, false, false, true, true, true, true, true, true};
+
+        for (int i = 0; i < 10; i++) {
+            if(TweetFilter.isFluTweet(texts[i]) != valids[i]){
+                System.out.println(texts[i] + "  "  + TweetFilter.isFluTweet(texts[i]));
+            }
+        }
+
+        System.out.println(TweetFilter.isFluTweet("I feel like I have the flu and I hate it") == true);
+        System.out.println(TweetFilter.isFluTweet("Flu symptoms are the worst") == true);
+        System.out.println(TweetFilter.isFluTweet("I definitely have the flu") == true);
+        System.out.println(TweetFilter.isFluTweet("I think I have the #flu I’m so sick") == true);
+        System.out.println(TweetFilter.isFluTweet("How would I know if I have the flu?") == true);
+        System.out.println(TweetFilter.isFluTweet("Five days I’ve had the flu! so sad") == true);
+        System.out.println(TweetFilter.isFluTweet("That bunny is so fluffy I wanna squeeze it") == false);
+        System.out.println(TweetFilter.isFluTweet("Don’t be influenced by fake news") == false);
+        System.out.println(TweetFilter.isFluTweet("ugh, I got #fluvid-19, shoulda taken the vax") == false);
+        System.out.println(TweetFilter.isFluTweet("so sick with the #flue gonna go home now") == false);
+        */

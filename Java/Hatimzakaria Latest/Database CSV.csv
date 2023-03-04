@@ -1,0 +1,9 @@
+ID,Role,First Name,Last Name,Numero de telephone,Adresse courriel,Titre
+1,Membre,Oussama,Kontra,514 900 7800,oussama.kontra@umontreal.ca,PostDoc
+2,Membre,Patrick,Leclair,614 900 9000,patrick.leclair@umontreal.ca,Maitrise
+3,Membre,Reda,Hamid,514 890 8000,reda.hamid@umontreal.ca,Maitrise
+4,Membre,Leila,Amiri,800 789 3000,leila.amiri@umontreal.ca,Doctorat
+5,Membre,Salma,Amiri,800 789 3001,salma.amiri@umontreal.ca,Maitrise
+6,Superviseur,Fatiha,Salami,690 900 8700,fatiha.salami@umontreal.ca,Doctorat
+7,Superviseur,Douaa,Amiri,514 900 7802,douaa.amiri@umontreal.ca,Maitrise
+8,Administrateur,Basma,Radi,614 900 9008,basma.radi@umontreal.ca,Maitrise

@@ -1,0 +1,4 @@
+100001,Programming proficiency
+100002,Web technologies
+100003,Digital design
+100004,Data structures and algorithms

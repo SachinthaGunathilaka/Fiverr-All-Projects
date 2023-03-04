@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/hada/Cartenormale.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/hada/Joueur.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/hada/Lemain.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/hada/Partie.java" charset="windows-1252" />
+  </component>
+</project>

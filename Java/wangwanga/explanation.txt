@@ -1,0 +1,13 @@
+---------------------------------------------------------------
+                       Storing Data
+---------------------------------------------------------------
+I have used 3 files for storing data.
+    1)  students.txt for storing students data.
+        Format of the file => studentID, studentName
+
+    2)  subjects.txt for storing information about subjects.
+        Format of the file => subjectID, subjectName
+
+    3)  marks.txt for storing the marks
+        Format of the file => studentID, subjectID, mark
+
