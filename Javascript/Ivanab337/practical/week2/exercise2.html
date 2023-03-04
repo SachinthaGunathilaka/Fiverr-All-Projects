@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/formStyles.css">
+    <script src="../javascript/badgeValidation.js"></script>
+    <title>Badge Order FORM</title>
+</head>
+
+<body>
+<form name="post-form" method="post" id="post-form">
+    <section>
+        <h1>Badge Order FORM</h1>
+        <div class="row">
+            <div class="col">
+                <label for="date">Date of Order</label>
+                <input type="date" required placeholder="dd/mm/yyyy" name="date" id="date">
+                <div id="date_err" class="err"></div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <label for="clbname">Club Name</label>
+                <input type="text" required placeholder="Dinamo" name="clbname" id="clbname">
+                <div id="clbname_err" class="err"></div>
+
+            </div>
+
+            <div class="col">
+                <label for="clbnumber">Club No.</label>
+                <input type="text" required placeholder="CB3-7C8" name="clbnumber" id="clbnumber">
+                <div id="clbnumber_err" class="err"></div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="fname">First Name</label>
+                <input type="text" required placeholder="Anastasia" name="fname" id="fname">
+                <div id="fname_err" class="err"></div>
+
+            </div>
+
+            <div class="col">
+                <label for="lname">Last Name</label>
+                <input type="text" required placeholder="Beaverhausen" name="lname" id="lname">
+                <div id="lname_err" class="err"></div>
+
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="address">Address</label>
+                <input type="text" required placeholder="1 Beaver Lane" name="address" id="address">
+                <div id="address_err" class="err"></div>
+            </div>
+            <div class="col">
+                <label for="city">City</label>
+                <input type="text" required placeholder="Lake Macquarie" name="city" id="city">
+                <div id="city_err" class="err"></div>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <label for="state">State</label>
+                <select id="state">
+                    <option label="NSW">New South Wales</option>
+                    <option label="QLD">Queensland</option>
+                    <option label="VIC">Victoria</option>
+                    <option label="ACT">Australian Capital Territory</option>
+                    <option label="TAS">Tasmania</option>
+                    <option label="WA">Western Australia</option>
+                    <option label="SA">South Australia</option>
+                    <option label="NT">Northern Territory</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="country">Country</label>
+                <select id="country">
+                    <option label="Australia">Australia</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label for="pstcode">Post Code</label>
+                <input type="text" required placeholder="2215" name="pstcode" id="pstcode">
+                <div id="pstcode_err" class="err"></div>
+            </div>
+
+            <div class="col">
+                <label for="pnum">Tel Number</label>
+                <input type="text" required placeholder="0475227520" name="pnum" id="pnum">
+                <div id="pnum_err" class="err"></div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Badge Info</h2>
+
+        <div class="row">
+            <h4 class="index">
+                Officer Rank
+            </h4>
+            <h4 class="title">
+                First Name
+            </h4>
+            <h4 class="title">
+                Surname
+            </h4>
+            <h4 class="title">
+                Officer Rank <br/> (Pre, M, Ex, Sgt, VP)
+            </h4>
+            <h4 class="title">
+                Badge Option <br/> (A, B or C)
+            </h4>
+        </div>
+
+        <div class="row">
+
+            <div class="index">
+                1
+            </div>
+
+            <div class="data">
+                <input type="text" required placeholder="Anastasia" name="name1" id="fname1">
+            </div>
+
+            <div class="data">
+                <input type="text" required placeholder="Anastasia" name="name1" id="surname1">
+            </div>
+
+
+            <div class="data">
+                <select id="offrank1" class="seclection">
+                    <option label="Pre">Pre</option>
+                    <option label="M">M</option>
+                    <option label="Ex">Ex</option>
+                    <option label="Sgt">Sgt</option>
+                    <option label="VP">VP</option>
+                </select>
+            </div>
+
+            <div>
+                <select id="bdgoption1" class="seclection">
+                    <option label="A">0</option>
+                    <option label="B">1</option>
+                    <option label="C">2</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="index">
+                2
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name2" id="fname2">
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name2" id="surname2">
+            </div>
+
+
+            <div class="data">
+                <select id="offrank2" class="seclection">
+                    <option label="Pre">Pre</option>
+                    <option label="M">M</option>
+                    <option label="Ex">Ex</option>
+                    <option label="Sgt">Sgt</option>
+                    <option label="VP">VP</option>
+                </select>
+            </div>
+
+
+            <div>
+                <select id="bdgoption2" class="seclection">
+                    <option label="A">0</option>
+                    <option label="B">1</option>
+                    <option label="C">2</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+            <div class="index">
+                3
+            </div>
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name3" id="fname3">
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name3" id="surname3">
+            </div>
+
+            <div class="data">
+                <select id="offrank3" class="seclection">
+                    <option label="Pre">Pre</option>
+                    <option label="M">M</option>
+                    <option label="Ex">Ex</option>
+                    <option label="Sgt">Sgt</option>
+                    <option label="VP">VP</option>
+                </select>
+            </div>
+
+            <div>
+                <select id="bdgoption3" class="seclection">
+                    <option label="A">0</option>
+                    <option label="B">1</option>
+                    <option label="C">2</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="index">
+                4
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name4" id="fname4">
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name4" id="surname4">
+            </div>
+
+
+            <div class="data">
+                <select id="offrank4" class="seclection">
+                    <option label="Pre">Pre</option>
+                    <option label="M">M</option>
+                    <option label="Ex">Ex</option>
+                    <option label="Sgt">Sgt</option>
+                    <option label="VP">VP</option>
+                </select>
+            </div>
+
+
+            <div>
+                <select id="bdgoption4" class="seclection">
+                    <option label="A">0</option>
+                    <option label="B">1</option>
+                    <option label="C">2</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="index">
+                5
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name5" id="fname5">
+            </div>
+
+            <div class="data">
+                <input type="text" placeholder="Anastasia" name="name5" id="surname5">
+            </div>
+
+
+            <div class="data">
+                <select id="offrank5" class="seclection">
+                    <option label="Pre">Pre</option>
+                    <option label="M">M</option>
+                    <option label="Ex">Ex</option>
+                    <option label="Sgt">Sgt</option>
+                    <option label="VP">VP</option>
+                </select>
+            </div>
+
+
+            <div>
+                <select id="bdgoption5" class="seclection">
+                    <option label="A">0</option>
+                    <option label="B">1</option>
+                    <option label="C">2</option>
+                </select>
+            </div>
+        </div>
+
+        <div style="margin-top: 15px">
+            <div id="badge_err" class="err"></div>
+
+        </div>
+    </section>
+
+
+    <section style="margin-bottom: 50px">
+        <h2>Payment Information</h2>
+
+        <div class="row">
+            <div class="last_col">
+                <div>
+                    <h5 style="width: 200px; margin-bottom: 10px">PAYMENT METHOD</h5>
+                    <div class="radio">
+                        <input checked="checked" type="radio" id="cheque" name="Paymentmethod" value="cheque"
+                               onclick="onClickPaymentMethod(this);">
+                        Cheque
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="moneyorder" name="Paymentmethod" value="moneyorder"
+                               onclick="onClickPaymentMethod(this);">
+                        Money Order
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="dd" name="Paymentmethod" value="directdeposit"
+                               onclick="onClickPaymentMethod(this);">
+                        Direct Deposit
+                    </div>
+                    <div class="radio">
+                        <input type="radio" id="CC" name="Paymentmethod" value="creditcard"
+                               onclick="onClickPaymentMethod(this);">
+                        Credit Card
+                    </div>
+
+                </div>
+
+                <div>
+                    <h5 style="width: 200px;margin-top: 30px; margin-bottom: 10px">BADGE COST</h5>
+                    <div class="radio">
+                        <strong>A</strong> Standard Badge $7.50
+                    </div>
+
+                    <div class="radio">
+                        <strong>B</strong> Plastic Alligator Clip (with Safety Pin) $8.00
+                    </div>
+
+                    <div class="radio">
+                        <strong>C</strong> Magnetic Badge Clip (no Pin) $10.00
+                    </div>
+                </div>
+
+                <div>
+                    <h5 style="width: 200px;margin-top: 30px; margin-bottom: 10px">BADGES OPTION</h5>
+
+                    <div style="margin-left: 125px">
+                        <div class="radio" id="badgeoption1">
+                        </div>
+                        <div class="radio" id="badgeoption2">
+                        </div>
+
+                        <div class="radio" id="badgeoption3">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="margin-top: 20px">
+                    <div class="details_row">
+                        <div class="col">
+                            Postal Cost
+                        </div>
+
+                        <div class="col" id="postal_cost">
+
+                        </div>
+                    </div>
+
+                    <!--                    <div class="details_row">-->
+                    <!--                        <div class="details_col">-->
+                    <!--                            Postage & Pack 5 to 8 badges.-->
+                    <!--                        </div>-->
+
+                    <!--                        <div class="details_col">-->
+                    <!--                            $ 8.00-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <div class="details_row">
+                        <div class="details_col">
+                            Sub Total.
+                        </div>
+
+                        <div class="details_col" id="Sub_total">
+
+                        </div>
+                    </div>
+
+                    <div class="details_row">
+                        <div class="details_col">
+                            Credit Card fee 2.5% of Sub Total.
+                        </div>
+
+                        <div class="details_col" id="credit_card_fee">
+
+                        </div>
+
+                    </div>
+
+                    <div class="details_row">
+                        <div class="details_col">
+                            Total.
+                        </div>
+
+                        <div class="details_col" id="total">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="last_col" id="credit_card_details">
+            </div>
+
+        </div>
+        <div style="margin-top: 30px">
+            <button class="button" type="submit" onclick="validateForm()"> Submit Form</button>
+        </div>
+
+    </section>
+
+
+</form>
+
+
+</body>

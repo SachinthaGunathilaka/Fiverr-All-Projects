@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="form.js"></script>
+</head>
+<body>
+
+<form>
+    <div style="padding-bottom:20px;margin-top: 50px">
+        Name &nbsp; &nbsp;&nbsp; &nbsp;<input type="text" id="name" name="name"><br>
+        <span id="name_error" style="color: red;font-size: 14px"></span>
+    </div>
+
+
+    <div style="padding-bottom:20px">
+        Age &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<input type="number" id="age" name="age"><br>
+        <span id="age_error" style="color: red;font-size: 14px"></span>
+    </div>
+
+    <div style="padding-bottom:30px">
+        Password <input type="password" id="password" name="password"><br>
+        <span id="password_error" style="color: red;font-size: 14px"></span>
+    </div>
+
+    <div style="padding-bottom:20px;">
+        <input type="button" value="Submit" onclick="onSubmit()">
+    </div>
+
+    <div style="padding-bottom:20px;">
+        <input type="button" value="BirthDay" onclick="birthday()">
+    </div>
+
+    <div style="padding-bottom:20px;">
+        <input type="button" value="Greet Each Other" onclick="greetAll()">
+    </div>
+
+
+    <div style="padding-bottom:20px">
+        <p id="details"></p>
+    </div>
+
+    <div style="padding-bottom:10px">
+        <p id="greet"></p>
+    </div>
+
+</form>
+
+</body>
+</html>
