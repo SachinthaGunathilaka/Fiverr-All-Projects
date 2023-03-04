@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/jeandrevz.dir/main.c.o -o jeandrevz.exe -Wl,--out-implib,libjeandrevz.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

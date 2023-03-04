@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/alexrequiresaid_project.dir/AS6_Q3_Template.c.o -o alexrequiresaid_project.exe -Wl,--out-implib,libalexrequiresaid_project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

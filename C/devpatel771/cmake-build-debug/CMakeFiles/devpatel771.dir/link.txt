@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/devpatel771.dir/rand_story.c.o CMakeFiles/devpatel771.dir/story-step4.c.o -o devpatel771.exe -Wl,--out-implib,libdevpatel771.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

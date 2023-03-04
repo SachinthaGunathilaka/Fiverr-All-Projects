@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func1.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func2.h
+stdio.h
+-
+stdlib.h
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func3.h
+func2.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func2.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func4.h
+func2.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func2.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/main.c
+func1.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func1.h
+func3.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func3.h
+func4.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/selimkaya610/func4.h
+

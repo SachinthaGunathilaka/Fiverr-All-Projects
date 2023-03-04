@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/untitled1/main.c
+stdio.h
+-
+dirent.h
+-
+string.h
+-
+sys/stat.h
+-
+stdlib.h
+-
+time.h
+-
+

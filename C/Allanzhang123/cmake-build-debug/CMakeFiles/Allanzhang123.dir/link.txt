@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/Allanzhang123.dir/sixteen_in.c.o CMakeFiles/Allanzhang123.dir/bcd.c.o CMakeFiles/Allanzhang123.dir/sixteen_out.c.o CMakeFiles/Allanzhang123.dir/packed_bcd.c.o -o Allanzhang123.exe -Wl,--out-implib,libAllanzhang123.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

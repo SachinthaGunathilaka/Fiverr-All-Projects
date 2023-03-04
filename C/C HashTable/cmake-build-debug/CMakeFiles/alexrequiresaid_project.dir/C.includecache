@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/alexrequiresaid project/AS6_Q3_Template.c
+stdio.h
+-
+stdlib.h
+-
+

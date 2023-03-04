@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/nolimitgiso.dir/main.c.o -o nolimitgiso.exe -Wl,--out-implib,libnolimitgiso.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

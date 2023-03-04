@@ -1,0 +1,5 @@
+1 Bente Jensen 2 250.50
+2 Jens Hansen 3 184.01
+6 Anton Holm 1 165.25
+7 Sonja Andersen 2 235.75
+10 Clara Larsen 2 200.00

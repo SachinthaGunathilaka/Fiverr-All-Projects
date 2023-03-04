@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/natpbean.dir/main.c.o CMakeFiles/natpbean.dir/src/search.c.o CMakeFiles/natpbean.dir/src/extensions.c.o -o natpbean.exe -Wl,--out-implib,libnatpbean.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

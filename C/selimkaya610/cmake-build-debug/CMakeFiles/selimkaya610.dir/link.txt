@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/selimkaya610.dir/func1.c.o CMakeFiles/selimkaya610.dir/func2.c.o CMakeFiles/selimkaya610.dir/func3.c.o CMakeFiles/selimkaya610.dir/func4.c.o CMakeFiles/selimkaya610.dir/main.c.o -o selimkaya610.exe -Wl,--out-implib,libselimkaya610.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

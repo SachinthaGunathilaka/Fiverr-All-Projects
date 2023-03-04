@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/elokingz/nim.c
+nim.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/elokingz/nim.h
+stdlib.h
+-
+stdio.h
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/elokingz/nim.h
+

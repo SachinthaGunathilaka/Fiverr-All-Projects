@@ -1,0 +1,11 @@
+1 Bente Jensen 2 250.50 word excel database 
+2 Jens Hansen 3 184.01 word database 
+3 Peter Johansen 1 325.00 excel 
+5 Merete Hansen 3 237.04 database 
+6 Anton Holm 1 165.25 word 
+7 Sonja Andersen 2 235.75 word excel 
+8 Niels Nielsen 3 196.88 
+9 Tom Bentsen 1 150.00 
+10 Clara Larsen 2 200.00 word excel 
+11 Poul Petersen 3 184.01 
+12 Erik Eriksen 3 260.75 

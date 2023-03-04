@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/Liuliu_6.dir/task2.c.o -o Liuliu_6.exe -Wl,--out-implib,libLiuliu_6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

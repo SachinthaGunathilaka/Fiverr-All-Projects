@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/devpatel771/provided.h
+stdlib.h
+-
+stdio.h
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/devpatel771/rand_story.h
+provided.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/devpatel771/provided.h
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/devpatel771/story-step4.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+rand_story.h
+/cygdrive/c/Users/sachi/OneDrive/Desktop/devpatel771/rand_story.h
+

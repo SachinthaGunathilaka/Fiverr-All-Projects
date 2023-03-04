@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Allanzhang123/bcd.c
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+assert.h
+-
+
+/cygdrive/c/Users/sachi/OneDrive/Desktop/Allanzhang123/sixteen_in.c
+stdio.h
+-
+stdint.h
+-
+string.h
+-
+assert.h
+-
+

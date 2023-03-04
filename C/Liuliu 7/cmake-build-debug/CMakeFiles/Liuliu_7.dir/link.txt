@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/Liuliu_7.dir/hw.c.o -o Liuliu_7.exe -Wl,--out-implib,libLiuliu_7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
