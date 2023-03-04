@@ -1,0 +1,1249 @@
+C:\Users\sachi\anaconda3\python.exe C:/Users/sachi/OneDrive/Desktop/avyancobusiness/main.py
+<html xmlns="http://www.w3.org/1999/xhtml" class=""><head>
+    <title>Search License Information</title>
+
+
+
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="../../ui/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/ltr.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout_dashboard.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/dashboard_ltr.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/FontAwesome/css/font-awesome.min.css">
+    <!-- scripts -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-0UmWi2drUOFtiIl9tXA3B9fWn6Oz5K3vecq0zC8vAzesBQkPzPdlJKXnimDbxieW"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-0UmWi2drUOFtiIl9tXA3B9fWn6Oz5K3vecq0zC8vAzesBQkPzPdlJKXnimDbxieW"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  </script>
+    <script type="text/javascript" src="../../ui/js/common.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        /* function to show the validation */
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="../../ClientScript/NewWindow.js "></script>
+    <script src="../../ClientScript/appinsights.js"></script>
+
+<title>
+
+        DED - Company Lookup
+
+</title>
+    <style type="text/css">
+		.divInspRep { PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px;}
+		.Validation { DISPLAY: none }
+
+			.SectionFieldset,.SectionFieldset LEGEND { FONT-WEIGHT: bold; TEXT-TRANSFORM: capitalize; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center }
+			.Validation { DISPLAY: none ;}
+
+	</style>
+    <script language="javascript" src="../../ClientScript/NumberValidation.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+		<!--
+        function CompanyLookup() {
+            var LNOControl, TEControl, TAControl;
+            // Get the Form Controls
+            this.init = function getControl() {
+                if (document.getElementById) { // For IE 5+, NN
+                    LNOControl = document.getElementById('DEDLCNr');
+                    TEControl = document.getElementById('DEDTNEnglish');
+                    TAControl = document.getElementById('DEDTNArabic');
+                    return true;
+                }
+                else if (document.all) { // For IE 4-
+                    LNOControl = document.all['DEDLCNr'];
+                    TEControl = document.all['DEDTNEnglish'];
+                    TAControl = document.all['DEDTNArabic'];
+                    return true;
+                }
+                else if (document.layers) { // For NN4
+                    LNOControl = document.layers['DEDLCNr'];
+                    TEControl = document.layers['DEDTNEnglish'];
+                    TAControl = document.layers['DEDTNArabic'];
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+
+            // Validate the Form
+            this.Validate = function FormValidation() {
+                // Check the Fields, Are they empty
+                if (TEControl) {
+                    if (Trim(LNOControl.value) == '' && Trim(TEControl.value) == '') {
+                        LNOControl.focus();
+                        show(true);
+                        return false;
+                    }
+                    else return true;
+                }
+                else if (TAControl) {
+                    if (Trim(LNOControl.value) == '' && Trim(TAControl.value) == '') {
+                        LNOControl.focus();
+                        show(true);
+                        return false;
+                    }
+                    else return true;
+                }
+            }
+
+            this.minCharValidationEng = function MinCharE() {
+                // Min 3 char
+                if (TEControl) {
+                    if (TEControl.value == '') return true;
+                    else if (TEControl.value != '' && TEControl.value.length >= 3) return true;
+                    else return false;
+                }
+                return true;
+            }
+
+            this.minCharValidationArb = function MinCharA() {
+                // Min 3 char
+                if (TAControl) {
+                    if (TAControl.value == '') return true;
+                    else if (TAControl.value != '' && TAControl.value.length >= 3) return true;
+                    else return false;
+                }
+                else return true;
+            }
+
+
+            // To Clear the Trade Names If there is no change in the License Number
+            this.ClearTradeNames = function ClearTradeName() {
+                if (TEControl) TEControl.value = '';
+                if (TAControl) TAControl.value = '';
+            }
+
+            // To Clear the License No. and Trade Name English If there is not change in the Trade Names
+            this.ClearLicNoTraNameE = function ClearLTE() {
+                LNOControl.value = '';
+                if (TEControl) TEControl.value = '';
+            }
+
+            // To Clear the License No. and Trade Name English If there is not change in the Trade Names
+            this.ClearLicNoTraNameA = function ClearLTA() {
+                LNOControl.value = '';
+                if (TAControl) TAControl.value = '';
+            }
+
+            function Trim(STRING) {
+                STRING = LTrim(STRING);
+                return RTrim(STRING);
+            }
+
+            function RTrim(STRING) {
+                while (STRING.charAt((STRING.length - 1)) == " ") {
+                    STRING = STRING.substring(0, STRING.length - 1);
+                }
+                return STRING;
+            }
+
+
+            function LTrim(STRING) {
+                while (STRING.charAt(0) == " ") {
+                    STRING = STRING.replace(STRING.charAt(0), "");
+                }
+                return STRING;
+            }
+        }
+
+        function requiredField(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.Validate()
+        }
+
+        function minCharFieldsE(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.minCharValidationEng();
+            if (!arguments.IsValid) show(true);
+        }
+
+        function minCharFieldsA(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.minCharValidationArb();
+            if (!arguments.IsValid) show(true);
+        }
+
+        function show(flag) {
+            if (flag == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+
+        function clientValidation() {
+            show(false);
+        }
+
+		-->
+    </script>
+
+    <script type="text/javascript">
+        function LCDetail(LCNr) {
+
+            var urlStr = 'CompProPopup_A.aspx?LC=' + LCNr;
+
+
+            NewWindow2(urlStr, 'DEDWINLCDetail', '500', '300', 'yes');
+        }
+    </script>
+<script src="https://js.monitor.azure.com/scripts/b/ai.2.min.js" crossorigin="anonymous"></script><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+<body style="">
+    <form method="post" action="/Pages/Anon/CompLookup.aspx?dedqs=fjWtzpxXhyFu3YQAOQgTlFaaEO4/SJJvuZaaHu2s8UOj8nTwcuRx9VFb1nq4GQ+yzYR9KIHUfCNFcnHVNoNY8R8TeGlhXuqkGzauwbceK4leMTqcBiTE3gzX2qpcIMk4YnrVOaTJ0g4c3OVIR33eLQ==" onsubmit="javascript:return WebForm_OnSubmit();" id="FRMCompanyLookup">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['FRMCompanyLookup'];
+if (!theForm) {
+    theForm = document.FRMCompanyLookup;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNvmK2Ww3CuNFEamSnsFB09ZsUG2OCp3XXdG6Ysik2MX7nsi_w2&amp;t=637814797746327080" type="text/javascript"></script>
+
+
+<script language="javascript" src="../../ClientScript/common.js"></script>
+<link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet"><script language="javascript" src="../../ClientScript/NumberValidation.js"></script><script language="JavaScript"><!--
+function textCounter(field,maxlimit) { if (field.value.length > maxlimit) field.value=field.value.substring(0, maxlimit); try{textCounterOnPg();}catch(e){}; }
+function NumValidate(me) {if (!validvalue(me,'1234567890.',0)){ if(!validvalueText( me.value.substring(me.value.length-1,me.value.length),'1234567890.',0)) me.value=me.value.substring(0,me.value.length-1);}}
+function ResetNum(me) {if (!validvalue(me,'1234567890.',0)) me.value=''; }
+//--></script>
+<script type="text/javascript">var safePage = 0;var refererName;if (!window.opener && !document.referrer) {safePage = 0;} else if (document.referrer){ refererName = document.referrer.split('/')[2];if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } else if (window.opener){ refererName = window.opener.location.hostname;if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } if (safePage == 0) {window.location.replace('/Security/security.html');} </script>          <script type="text/javascript">      if (self === top) {          var antiClickjack = document.getElementById("antiClickjack");          antiClickjack.parentNode.removeChild(antiClickjack);      } else {          top.location = self.location;      }   </script> <link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet">
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakB1YgDElPeucUa4qIhUW4-ovfc9gHjOlRj1c98BYE0gFsRHJRIqA6Oxep1v-U9j8bPxubko1&amp;t=637814797746327080" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E88CC0F8">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="XFfosPbTORh3GkiZukJD/yk9vbx63fFASOfPE6g0cGRqCFNvoM7DXFMCil/PGC36kCBCbLYadUjzmOIrf5C1/uj0wI8pGdvWConRCYhVk7xmJ0Hvx9fr0TgUciuTKEWH1aszJk/rtEKGEvn4ruVLPnInLYC3zUD/CXEQyKUTIHR1ZzgRofZ+sd9wrk3ygs7LzVPkiy14fXV34PaQbqSMuI+fnAe3OpQwsvO0VE4TaAYK19LxOT/PUnJnH3tz53z0/iof3JY9mEgsep5vfsRYffMKv+BMlAjyXJqe1jr8YxXpCtSP">
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL" async="" defer=""></script>
+<script type="text/javascript">
+    function Setgrecaptcha(pAction) {
+        grecaptcha.execute('6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL', { action: pAction })
+            .then(function (token) {
+                $("input[name$=hdnGCaptchaToken]").each(function() {
+                        this.value = token;
+                    });
+            });
+    }
+
+    function Initiategrecaptcha(pAction) {
+        try {
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL', {action: pAction})
+                        .then(function (token) {
+                             $("input[name$=hdnGCaptchaToken]").each(function() {
+                            this.value = token;
+                        });
+                    });
+            });
+        } catch (eGoogle) {
+
+        }
+    }
+  </script>
+<input type="hidden" name="GoogleReCaptcha$hdnGCaptchaToken" id="GoogleReCaptcha_hdnGCaptchaToken" value="03AD1IbLALYf_0M9xVQUFZ-jTxsTe5-lN0OhZFd-JezUm4w9VD7cImyteDPyN0rqSxgNPyVfvTKB9BzBMuebBJ61SuNYL_q2u88UqJz74WYO-A7BS3Dz6qkjS16BQyw7yQ9K4JrIM-6x-ogHo5WUeaR9BwaNb1MXtucqg3fmqU04RZTiZfIY_G72KSVvlgftp1m7jjjtXnIRvsrrFDp5nvOc1O9Isa-l4eNq6bhUyKT7JGKviEwJ10kUAuEcIF17kumUQvB8ZsBev8OqxZ0-OLPrSq11hlJDXOye5OFadkLdZ6-RetDOHTVIdwyaodBdfvQUPgxy-NcTt6yPcXV54FmjC5QIbLmCHa2zK61Xn8zrqIteSwqWEvGnSNp8P3c_0HXbsazn-1EXjiQlKO6xlG-rlm3xswOHlkmU6K3EfeUV_rtLQWnCSXOuzGbZMNcg_3n7eKEzPqanPtr21rLFtabyC6dJO-Mx9sQk88z4PmUHPFx6HeLC6lKl804KjEFRAqdUgDNtWmYa9mbWP9gleA9hxYM626s2AoK10HDKD6W5bgGTT7yn9r7MmrRNiRrqRzQYIb7UiVFoq0FRxj8h8DuQkQaFo8zleQpg">
+<input type="hidden" name="GoogleReCaptcha$hdnScore" id="GoogleReCaptcha_hdnScore" value="0.9">
+
+<!-- pgLTWizTOP start -->
+
+    <script type="text/javascript">
+        $(window).on('load', function () { $("#formspinner").fadeOut("slow"); });
+    </script>
+    <div id="formspinner" style="display: none;"></div>
+
+<script type="text/javascript">
+
+
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+        try {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        catch (e2) {
+        }
+    }
+
+
+
+
+</script>
+<div class="hidden">
+    <input id="IsDirty" type="hidden" name="IsDirty">
+</div>
+<div class="wrapper">
+    <div class="wrapper-cont">
+        <div class="header">
+            <div style="display: none;">
+                <div class="upperBar">
+                    <div>
+                        Welcome guest.</div>
+                    <div class="lang">
+                    </div>
+
+                </div>
+            </div>
+            <div class="logos">
+                <img src="../../ui/images/economy-logo.png" class="economy-logo">
+                <img src="../../ui/images/dubai-logo.png" class="dubai-logo">
+            </div>
+            <div>
+                <a href="../../Pages/Anon/GstHme.aspx?dedqs=miVVgMLthyo=" class="home-btn">
+                    <div class="home-img">
+                        <img src="../../ui/images/web-page-home.png">
+                    </div>
+                </a>
+                <div class="profileBar">
+                    <div class="LeftText" style="display: none">
+                        Search License Information
+                    </div>
+                    <div class="Profile">
+                        <div class="login-btn">
+
+                            <div id="PgLtWizTopForUserMenu1_DivLoginButton" class="login-popup-btn">
+                                <a href="#" data-modal-id="popup1" class="js-open-modal" style="text-decoration: none;">
+                                    <label>
+                                        <strong>
+                                            Login</strong>&nbsp; <i class="fa fa-user-o fa-2 float-right">
+                                        </i>&nbsp;</label></a>
+                            </div>
+                            <a class="lang_text" href="/Pages/Anon/CompLookup.aspx?1=1&amp;PID=10105&amp;sname=Search_License_Information&amp;srp=-1&amp;sfn=-1&amp;ifn=-1&amp;pn=173956&amp;pn2=-1&amp;wasQSEncrypted=N&amp;LID=2">
+                                <div class="lang-btn">
+                                    <label>
+                                        العربي</label>
+                                </div>
+                            </a>
+                            <div class="profile-status">
+
+                            </div>
+                        </div>
+                        <div style="display: none;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-icon">
+                <a href="../../Help/Online_Help_E/DED_E-Services.htm" class="help-icon-link" target="_blank"></a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function MM_showHideLayers() { //v9.0
+                var i, p, v, obj, args = MM_showHideLayers.arguments;
+                for (i = 0; i < (args.length - 2); i += 3)
+                    with (document) if (getElementById && ((obj = getElementById(args[i])) != null)) {
+                        v = args[i + 2];
+                        if (obj.style) { obj = obj.style; v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v; }
+                        obj.visibility = v;
+                    }
+            }
+        </script>
+
+        <div class="content">
+            <!-- delete html generated below-->
+
+
+    <div>
+        <div class="no-panel">
+            <div id="divEMsg" class="Validation MsgValiddation CaptchaFix">
+                <table width="100%" border="0"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td><fieldset class="ErrorFieldset"><legend>Error Messages</legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td>
+
+                <div id="vsError" class="ErrorValidation ActivVaildFix" style="width:100%;display:none;">
+
+</div>
+                </td></tr></tbody></table> </fieldset></td></tr></tbody></table>
+            </div>
+        </div>
+        <!-- Opening FSTPrsnRep  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Criteria</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <div class="info-box">
+            <div class="info-box-content">
+                You can search for a company by license number or by English trade name.
+            </div>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDLCNr" class="boldText">License Nr.</label></td><td class="ded-td-input-text"><input name="DEDLCNr" type="text" value="800005" maxlength="8" id="DEDLCNr" tabindex="1" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';frmCompanyLookup.ClearTradeNames();frmCompanyLookup.ClearTradeNames();" onkeydown="NumValidate(this);if (event.keyCode == 13) document.getElementById('DEDBtnSrch').click();" onkeyup="NumValidate(this);" onblur="NumValidate(this);" onfocus="frmCompanyLookup.ClearTradeNames();frmCompanyLookup.ClearTradeNames();" style="width:250px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDLCNr" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+
+        <span id="cvTradeNameA" style="display:none;"></span>
+        <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDTNEnglish" class="boldText">English Trade Name</label></td><td class="ded-td-input-text"><input name="DEDTNEnglish" type="text" maxlength="120" id="DEDTNEnglish" tabindex="3" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';frmCompanyLookup.ClearLicNoTraNameA();frmCompanyLookup.ClearLicNoTraNameA();" onkeydown="if (event.keyCode == 13) document.getElementById('DEDBtnSrch').click()" onfocus="frmCompanyLookup.ClearLicNoTraNameA();frmCompanyLookup.ClearLicNoTraNameA();" style="width:250px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDTNEnglish" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+        <span id="cvTradeNameE" style="display:none;"></span>
+        <div class="footer-btns">
+            <div class="right">
+                <table class="btn-sml-3" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img width="1px" height="1px" src="../../images/btn_tl.gif"></td><td background="../../images/btn_t.gif"></td><td><img src="../../images/btn_tr.gif" width="1" height="1" alt=""></td></tr><tr><td background="../../images/btn_ml.gif"><img src="../../images/btn_ml.gif" width="1" height="12" alt=""></td><td align="center"><input type="submit" name="DEDBtnSrch" value="Search" onclick="clientValidation();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;DEDBtnSrch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="DEDBtnSrch" tabindex="4" class="btn-sml-3"></td><td background="../../images/btn_mr.gif"><img width="1px" height="12px" src="../../images/btn_mr.gif" alt=""></td></tr><tr><td><img src="../../images/btn_bl.gif" width="1" height="1" alt=""></td><td background="../../images/btn_bm.gif"></td><td><img src="../../images/btn_br.gif" width="1" height="1" alt=""></td></tr></tbody></table>
+            </div>
+        </div>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep  -->
+        <div class="Validation">
+            <input name="txtValidation" type="text" value="Make Validation" id="txtValidation" class="input_text"><span id="cvRequiredValidation" style="display:none;">You need to enter at least one search criteria</span></div>
+        <!-- Opening FSTPrsnRep2  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Results</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <div class="divInspRep" align="center">
+            <hr id="hrCompany" class="hidden" width="100%">
+
+            <div class="grid">
+                <table tabindex="5" cellspacing="0" id="DGSrcResult" style="width:100%;border-collapse:collapse;">
+	<tbody><tr class="DataGridTableTh">
+		<th scope="col">License Nr.</th><th scope="col">Trade Name (English)</th><th scope="col">Trade Name (Arabic)</th>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                                <a href="#" onclick="NewPopUpWindow(&quot;CompProPopup_A.aspx?LC=L800005I387260R1954799T25526503&quot;,&quot;CompanySearch&quot;,680,420,true);">
+                                    800005
+                                </a>
+                            </td><td>
+                                <span dir="ltr">
+                                    SHADE E P C CONTRACTING L.L.C
+                                </span>
+                            </td><td>
+                                <span dir="rtl">
+                                    شيد اي بيه سي للمقاولات ش.ذ.م.م
+                                </span>
+                            </td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="pagination">
+                <div class="paging-numbers">Page<span class="current">&nbsp;1</span>  of  <span class="total">1</span></div><div class="paging-arrows"><a disabled="disabled" class="last" href="javascript:__doPostBack('ctl13','')">Last</a><a disabled="disabled" class="next" href="javascript:__doPostBack('ctl12','')">Next</a><a class="prev" href="javascript:__doPostBack('ctl11','')">Previous</a><a class="first" href="javascript:__doPostBack('ctl10','')">First</a></div> </div>
+            </div>
+            <script type="text/javascript" charset="utf-8">
+                $(document).ready(function () {
+                    $("a[rel^='prettyPhoto']").each(function (index) {
+                        $(this).prettyPhoto({ theme: 'facebook' });
+                    });
+                });
+            </script>
+
+        <div class="clear">
+        </div>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep2  -->
+    </div>
+
+<!-- Delete any html generated above -->
+
+<!-- Google analytics-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1205005-20', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Scripts -->
+<script type="text/javascript">
+
+    //Hide status bar msg II script- by javascriptkit.com
+    //Visit JavaScript Kit (http://javascriptkit.com) for script
+    //Credit must stay intact for use
+
+    function hidestatus() {
+        window.status = '';
+        return true
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+    }
+    document.onmouseover = hidestatus;
+    document.onmouseout = hidestatus;
+</script>
+<script lang="JavaScript">
+    try {
+        MM_showHideLayers('ins', '', 'hide');
+    }
+    catch (e) {
+    }
+</script>
+<div class="clear">
+</div>
+</div> </div> </div>
+
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.css?v=2.1.5" media="screen">
+<script type="text/javascript">
+
+    // get the page name
+    var pageName = (function () {
+        var a = window.location.href,
+        b = a.lastIndexOf("/");
+        return a.substr(b + 1);
+    } ());
+
+    function autoClick() {
+        if (pageName == 'TransactionIndex.aspx') {
+            document.getElementById('onload').click();
+        }
+    }
+
+</script>
+<style type="text/css">
+    .fancybox-custom .fancybox-skin
+    {
+        box-shadow: 0 0 50px #222;
+    }
+    body
+    {
+        /*max-width: 700px;*/
+        margin: 0 auto;
+    }
+
+    #foo
+    {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        bottom: 0px;
+        left: 15px;
+        background-color: #2EA07E;
+        padding: 10px;
+    }
+</style>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("vsError"));
+var Page_Validators =  new Array(document.getElementById("cvTradeNameA"), document.getElementById("cvTradeNameE"), document.getElementById("cvRequiredValidation"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var vsError = document.all ? document.all["vsError"] : document.getElementById("vsError");
+vsError.headertext = " ";
+vsError.displaymode = "List";
+var cvTradeNameA = document.all ? document.all["cvTradeNameA"] : document.getElementById("cvTradeNameA");
+cvTradeNameA.controltovalidate = "txtValidation";
+cvTradeNameA.errormessage = "The Arabic Trade Name should not be less then 5 characters";
+cvTradeNameA.display = "None";
+cvTradeNameA.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvTradeNameA.clientvalidationfunction = "minCharFieldsA";
+var cvTradeNameE = document.all ? document.all["cvTradeNameE"] : document.getElementById("cvTradeNameE");
+cvTradeNameE.controltovalidate = "txtValidation";
+cvTradeNameE.errormessage = "English Trade Name should not be less than 5 characters.";
+cvTradeNameE.display = "None";
+cvTradeNameE.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvTradeNameE.clientvalidationfunction = "minCharFieldsE";
+var cvRequiredValidation = document.all ? document.all["cvRequiredValidation"] : document.getElementById("cvRequiredValidation");
+cvRequiredValidation.controltovalidate = "txtValidation";
+cvRequiredValidation.errormessage = "You need to enter at least one search criteria";
+cvRequiredValidation.display = "Dynamic";
+cvRequiredValidation.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvRequiredValidation.clientvalidationfunction = "requiredField";
+//]]>
+</script>
+
+<script language="JavaScript"> ;var CrystalReportPage='../../Pages/common/DeliverPDF.aspx?1=1&n=ie&L=_E&PSU=173956';  ;var CrystalReportPageInternal='../../Pages/common/DeliverPDF.aspx?1=1&n=ie&L=_E&PSU=173956'; </script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        var frmCompanyLookup = new CompanyLookup()
+        frmCompanyLookup.init(); // And call the Init method
+    </script>
+    <script type="text/javascript" language="javascript">
+        // function to highlight the current page link
+        Initiategrecaptcha("LicenseSearch");
+        set_selected("menu_li_CompLookup");
+    </script>
+
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL&amp;co=aHR0cHM6Ly9lc2VydmljZXMuZHViYWlkZWQuZ292LmFlOjQ0Mw..&amp;hl=en&amp;v=5qcenVbrhOy8zihcc2aHOWD4&amp;size=invisible&amp;cb=10bfwrtdbqy4" width="256" height="60" role="presentation" name="a-hd9vh4tfxrz3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response input_text" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body></html>
+<html xmlns="http://www.w3.org/1999/xhtml" class=""><head>
+    <title>Search License Information</title>
+
+
+
+
+    <!-- css -->
+    <link type="text/css" rel="stylesheet" href="../../ui/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/ltr.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/layout_dashboard.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/css/dashboard_ltr.css">
+    <link type="text/css" rel="stylesheet" href="../../ui/FontAwesome/css/font-awesome.min.css">
+    <!-- scripts -->
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-0UmWi2drUOFtiIl9tXA3B9fWn6Oz5K3vecq0zC8vAzesBQkPzPdlJKXnimDbxieW"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-0UmWi2drUOFtiIl9tXA3B9fWn6Oz5K3vecq0zC8vAzesBQkPzPdlJKXnimDbxieW"></script><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">  </script>
+    <script type="text/javascript" src="../../ui/js/common.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript">
+        /* function to show the validation */
+        function show(HasErrorOccured) {
+            if (HasErrorOccured == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+    <script type="text/javascript" src="../../ClientScript/NewWindow.js "></script>
+    <script src="../../ClientScript/appinsights.js"></script>
+
+<title>
+
+        DED - Company Lookup
+
+</title>
+    <style type="text/css">
+		.divInspRep { PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px;}
+		.Validation { DISPLAY: none }
+
+			.SectionFieldset,.SectionFieldset LEGEND { FONT-WEIGHT: bold; TEXT-TRANSFORM: capitalize; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center }
+			.Validation { DISPLAY: none ;}
+
+	</style>
+    <script language="javascript" src="../../ClientScript/NumberValidation.js" type="text/javascript"> </script>
+    <script type="text/javascript">
+		<!--
+        function CompanyLookup() {
+            var LNOControl, TEControl, TAControl;
+            // Get the Form Controls
+            this.init = function getControl() {
+                if (document.getElementById) { // For IE 5+, NN
+                    LNOControl = document.getElementById('DEDLCNr');
+                    TEControl = document.getElementById('DEDTNEnglish');
+                    TAControl = document.getElementById('DEDTNArabic');
+                    return true;
+                }
+                else if (document.all) { // For IE 4-
+                    LNOControl = document.all['DEDLCNr'];
+                    TEControl = document.all['DEDTNEnglish'];
+                    TAControl = document.all['DEDTNArabic'];
+                    return true;
+                }
+                else if (document.layers) { // For NN4
+                    LNOControl = document.layers['DEDLCNr'];
+                    TEControl = document.layers['DEDTNEnglish'];
+                    TAControl = document.layers['DEDTNArabic'];
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+
+            // Validate the Form
+            this.Validate = function FormValidation() {
+                // Check the Fields, Are they empty
+                if (TEControl) {
+                    if (Trim(LNOControl.value) == '' && Trim(TEControl.value) == '') {
+                        LNOControl.focus();
+                        show(true);
+                        return false;
+                    }
+                    else return true;
+                }
+                else if (TAControl) {
+                    if (Trim(LNOControl.value) == '' && Trim(TAControl.value) == '') {
+                        LNOControl.focus();
+                        show(true);
+                        return false;
+                    }
+                    else return true;
+                }
+            }
+
+            this.minCharValidationEng = function MinCharE() {
+                // Min 3 char
+                if (TEControl) {
+                    if (TEControl.value == '') return true;
+                    else if (TEControl.value != '' && TEControl.value.length >= 3) return true;
+                    else return false;
+                }
+                return true;
+            }
+
+            this.minCharValidationArb = function MinCharA() {
+                // Min 3 char
+                if (TAControl) {
+                    if (TAControl.value == '') return true;
+                    else if (TAControl.value != '' && TAControl.value.length >= 3) return true;
+                    else return false;
+                }
+                else return true;
+            }
+
+
+            // To Clear the Trade Names If there is no change in the License Number
+            this.ClearTradeNames = function ClearTradeName() {
+                if (TEControl) TEControl.value = '';
+                if (TAControl) TAControl.value = '';
+            }
+
+            // To Clear the License No. and Trade Name English If there is not change in the Trade Names
+            this.ClearLicNoTraNameE = function ClearLTE() {
+                LNOControl.value = '';
+                if (TEControl) TEControl.value = '';
+            }
+
+            // To Clear the License No. and Trade Name English If there is not change in the Trade Names
+            this.ClearLicNoTraNameA = function ClearLTA() {
+                LNOControl.value = '';
+                if (TAControl) TAControl.value = '';
+            }
+
+            function Trim(STRING) {
+                STRING = LTrim(STRING);
+                return RTrim(STRING);
+            }
+
+            function RTrim(STRING) {
+                while (STRING.charAt((STRING.length - 1)) == " ") {
+                    STRING = STRING.substring(0, STRING.length - 1);
+                }
+                return STRING;
+            }
+
+
+            function LTrim(STRING) {
+                while (STRING.charAt(0) == " ") {
+                    STRING = STRING.replace(STRING.charAt(0), "");
+                }
+                return STRING;
+            }
+        }
+
+        function requiredField(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.Validate()
+        }
+
+        function minCharFieldsE(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.minCharValidationEng();
+            if (!arguments.IsValid) show(true);
+        }
+
+        function minCharFieldsA(source, arguments) {
+            arguments.IsValid = frmCompanyLookup.minCharValidationArb();
+            if (!arguments.IsValid) show(true);
+        }
+
+        function show(flag) {
+            if (flag == true) {
+                document.getElementById("divEMsg").style.display = 'block';
+            }
+            else {
+                document.getElementById("divEMsg").style.display = 'none';
+            }
+        }
+
+        function clientValidation() {
+            show(false);
+        }
+
+		-->
+    </script>
+
+    <script type="text/javascript">
+        function LCDetail(LCNr) {
+
+            var urlStr = 'CompProPopup_A.aspx?LC=' + LCNr;
+
+
+            NewWindow2(urlStr, 'DEDWINLCDetail', '500', '300', 'yes');
+        }
+    </script>
+<script src="https://js.monitor.azure.com/scripts/b/ai.2.min.js" crossorigin="anonymous"></script><style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+<body style="">
+    <form method="post" action="/Pages/Anon/CompLookup.aspx?dedqs=fjWtzpxXhyFu3YQAOQgTlFaaEO4/SJJvuZaaHu2s8UOj8nTwcuRx9VFb1nq4GQ+yzYR9KIHUfCNFcnHVNoNY8R8TeGlhXuqkGzauwbceK4leMTqcBiTE3gzX2qpcIMk4YnrVOaTJ0g4c3OVIR33eLQ==" onsubmit="javascript:return WebForm_OnSubmit();" id="FRMCompanyLookup">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['FRMCompanyLookup'];
+if (!theForm) {
+    theForm = document.FRMCompanyLookup;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZNvmK2Ww3CuNFEamSnsFB09ZsUG2OCp3XXdG6Ysik2MX7nsi_w2&amp;t=637814797746327080" type="text/javascript"></script>
+
+
+<script language="javascript" src="../../ClientScript/common.js"></script>
+<link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet"><script language="javascript" src="../../ClientScript/NumberValidation.js"></script><script language="JavaScript"><!--
+function textCounter(field,maxlimit) { if (field.value.length > maxlimit) field.value=field.value.substring(0, maxlimit); try{textCounterOnPg();}catch(e){}; }
+function NumValidate(me) {if (!validvalue(me,'1234567890.',0)){ if(!validvalueText( me.value.substring(me.value.length-1,me.value.length),'1234567890.',0)) me.value=me.value.substring(0,me.value.length-1);}}
+function ResetNum(me) {if (!validvalue(me,'1234567890.',0)) me.value=''; }
+//--></script>
+<script type="text/javascript">var safePage = 0;var refererName;if (!window.opener && !document.referrer) {safePage = 0;} else if (document.referrer){ refererName = document.referrer.split('/')[2];if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } else if (window.opener){ refererName = window.opener.location.hostname;if (refererName.toLowerCase().search(/localhost|dubaided.gov.ae|dubai.ae|uaepass.ae|government.ae|basher.gov.ae/) > -1 ) {safePage = 1;} } if (safePage == 0) {window.location.replace('/Security/security.html');} </script>          <script type="text/javascript">      if (self === top) {          var antiClickjack = document.getElementById("antiClickjack");          antiClickjack.parentNode.removeChild(antiClickjack);      } else {          top.location = self.location;      }   </script> <link href="../../Stylesheets/TLicense_E.css" type="text/css" rel="stylesheet">
+<link href="../../Stylesheets/IStyle_E.css" type="text/css" rel="stylesheet">
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakB1YgDElPeucUa4qIhUW4-ovfc9gHjOlRj1c98BYE0gFsRHJRIqA6Oxep1v-U9j8bPxubko1&amp;t=637814797746327080" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E88CC0F8">
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0">
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="XFfosPbTORh3GkiZukJD/yk9vbx63fFASOfPE6g0cGRqCFNvoM7DXFMCil/PGC36kCBCbLYadUjzmOIrf5C1/uj0wI8pGdvWConRCYhVk7xmJ0Hvx9fr0TgUciuTKEWH1aszJk/rtEKGEvn4ruVLPnInLYC3zUD/CXEQyKUTIHR1ZzgRofZ+sd9wrk3ygs7LzVPkiy14fXV34PaQbqSMuI+fnAe3OpQwsvO0VE4TaAYK19LxOT/PUnJnH3tz53z0/iof3JY9mEgsep5vfsRYffMKv+BMlAjyXJqe1jr8YxXpCtSP">
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL" async="" defer=""></script>
+<script type="text/javascript">
+    function Setgrecaptcha(pAction) {
+        grecaptcha.execute('6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL', { action: pAction })
+            .then(function (token) {
+                $("input[name$=hdnGCaptchaToken]").each(function() {
+                        this.value = token;
+                    });
+            });
+    }
+
+    function Initiategrecaptcha(pAction) {
+        try {
+                grecaptcha.ready(function() {
+                    grecaptcha.execute('6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL', {action: pAction})
+                        .then(function (token) {
+                             $("input[name$=hdnGCaptchaToken]").each(function() {
+                            this.value = token;
+                        });
+                    });
+            });
+        } catch (eGoogle) {
+
+        }
+    }
+  </script>
+<input type="hidden" name="GoogleReCaptcha$hdnGCaptchaToken" id="GoogleReCaptcha_hdnGCaptchaToken" value="03AD1IbLALYf_0M9xVQUFZ-jTxsTe5-lN0OhZFd-JezUm4w9VD7cImyteDPyN0rqSxgNPyVfvTKB9BzBMuebBJ61SuNYL_q2u88UqJz74WYO-A7BS3Dz6qkjS16BQyw7yQ9K4JrIM-6x-ogHo5WUeaR9BwaNb1MXtucqg3fmqU04RZTiZfIY_G72KSVvlgftp1m7jjjtXnIRvsrrFDp5nvOc1O9Isa-l4eNq6bhUyKT7JGKviEwJ10kUAuEcIF17kumUQvB8ZsBev8OqxZ0-OLPrSq11hlJDXOye5OFadkLdZ6-RetDOHTVIdwyaodBdfvQUPgxy-NcTt6yPcXV54FmjC5QIbLmCHa2zK61Xn8zrqIteSwqWEvGnSNp8P3c_0HXbsazn-1EXjiQlKO6xlG-rlm3xswOHlkmU6K3EfeUV_rtLQWnCSXOuzGbZMNcg_3n7eKEzPqanPtr21rLFtabyC6dJO-Mx9sQk88z4PmUHPFx6HeLC6lKl804KjEFRAqdUgDNtWmYa9mbWP9gleA9hxYM626s2AoK10HDKD6W5bgGTT7yn9r7MmrRNiRrqRzQYIb7UiVFoq0FRxj8h8DuQkQaFo8zleQpg">
+<input type="hidden" name="GoogleReCaptcha$hdnScore" id="GoogleReCaptcha_hdnScore" value="0.9">
+
+<!-- pgLTWizTOP start -->
+
+    <script type="text/javascript">
+        $(window).on('load', function () { $("#formspinner").fadeOut("slow"); });
+    </script>
+    <div id="formspinner" style="display: none;"></div>
+
+<script type="text/javascript">
+
+
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (e) {
+        try {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+        catch (e2) {
+        }
+    }
+
+
+
+
+</script>
+<div class="hidden">
+    <input id="IsDirty" type="hidden" name="IsDirty">
+</div>
+<div class="wrapper">
+    <div class="wrapper-cont">
+        <div class="header">
+            <div style="display: none;">
+                <div class="upperBar">
+                    <div>
+                        Welcome guest.</div>
+                    <div class="lang">
+                    </div>
+
+                </div>
+            </div>
+            <div class="logos">
+                <img src="../../ui/images/economy-logo.png" class="economy-logo">
+                <img src="../../ui/images/dubai-logo.png" class="dubai-logo">
+            </div>
+            <div>
+                <a href="../../Pages/Anon/GstHme.aspx?dedqs=miVVgMLthyo=" class="home-btn">
+                    <div class="home-img">
+                        <img src="../../ui/images/web-page-home.png">
+                    </div>
+                </a>
+                <div class="profileBar">
+                    <div class="LeftText" style="display: none">
+                        Search License Information
+                    </div>
+                    <div class="Profile">
+                        <div class="login-btn">
+
+                            <div id="PgLtWizTopForUserMenu1_DivLoginButton" class="login-popup-btn">
+                                <a href="#" data-modal-id="popup1" class="js-open-modal" style="text-decoration: none;">
+                                    <label>
+                                        <strong>
+                                            Login</strong>&nbsp; <i class="fa fa-user-o fa-2 float-right">
+                                        </i>&nbsp;</label></a>
+                            </div>
+                            <a class="lang_text" href="/Pages/Anon/CompLookup.aspx?1=1&amp;PID=10105&amp;sname=Search_License_Information&amp;srp=-1&amp;sfn=-1&amp;ifn=-1&amp;pn=173956&amp;pn2=-1&amp;wasQSEncrypted=N&amp;LID=2">
+                                <div class="lang-btn">
+                                    <label>
+                                        العربي</label>
+                                </div>
+                            </a>
+                            <div class="profile-status">
+
+                            </div>
+                        </div>
+                        <div style="display: none;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help-icon">
+                <a href="../../Help/Online_Help_E/DED_E-Services.htm" class="help-icon-link" target="_blank"></a>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function MM_showHideLayers() { //v9.0
+                var i, p, v, obj, args = MM_showHideLayers.arguments;
+                for (i = 0; i < (args.length - 2); i += 3)
+                    with (document) if (getElementById && ((obj = getElementById(args[i])) != null)) {
+                        v = args[i + 2];
+                        if (obj.style) { obj = obj.style; v = (v == 'show') ? 'visible' : (v == 'hide') ? 'hidden' : v; }
+                        obj.visibility = v;
+                    }
+            }
+        </script>
+
+        <div class="content">
+            <!-- delete html generated below-->
+
+
+    <div>
+        <div class="no-panel">
+            <div id="divEMsg" class="Validation MsgValiddation CaptchaFix">
+                <table width="100%" border="0"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td><fieldset class="ErrorFieldset"><legend>Error Messages</legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td>
+
+                <div id="vsError" class="ErrorValidation ActivVaildFix" style="width:100%;display:none;">
+
+</div>
+                </td></tr></tbody></table> </fieldset></td></tr></tbody></table>
+            </div>
+        </div>
+        <!-- Opening FSTPrsnRep  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Criteria</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <div class="info-box">
+            <div class="info-box-content">
+                You can search for a company by license number or by English trade name.
+            </div>
+        </div>
+        <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDLCNr" class="boldText">License Nr.</label></td><td class="ded-td-input-text"><input name="DEDLCNr" type="text" value="800005" maxlength="8" id="DEDLCNr" tabindex="1" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';frmCompanyLookup.ClearTradeNames();frmCompanyLookup.ClearTradeNames();" onkeydown="NumValidate(this);if (event.keyCode == 13) document.getElementById('DEDBtnSrch').click();" onkeyup="NumValidate(this);" onblur="NumValidate(this);" onfocus="frmCompanyLookup.ClearTradeNames();frmCompanyLookup.ClearTradeNames();" style="width:250px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDLCNr" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+
+        <span id="cvTradeNameA" style="display:none;"></span>
+        <table border="0" cellpadding="0" cellspacing="0" class="ded-control-input"><tbody><tr><td class="ded-td-input-label"><label for="DEDTNEnglish" class="boldText">English Trade Name</label></td><td class="ded-td-input-text"><input name="DEDTNEnglish" type="text" maxlength="120" id="DEDTNEnglish" tabindex="3" class="ded-input-text input_text" onchange="document.getElementById('IsDirty').value='true';frmCompanyLookup.ClearLicNoTraNameA();frmCompanyLookup.ClearLicNoTraNameA();" onkeydown="if (event.keyCode == 13) document.getElementById('DEDBtnSrch').click()" onfocus="frmCompanyLookup.ClearLicNoTraNameA();frmCompanyLookup.ClearLicNoTraNameA();" style="width:250px;margin:-1px;"></td><td class="ded-td-input-validation"></td></tr></tbody></table><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td style="visibility:hidden;display:none;color:red" id="lblSplCharDEDTNEnglish" nowrap="">One or more character(s) you are trying to enter is not allowed.</td></tr></tbody></table>
+        <span id="cvTradeNameE" style="display:none;"></span>
+        <div class="footer-btns">
+            <div class="right">
+                <table class="btn-sml-3" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><img width="1px" height="1px" src="../../images/btn_tl.gif"></td><td background="../../images/btn_t.gif"></td><td><img src="../../images/btn_tr.gif" width="1" height="1" alt=""></td></tr><tr><td background="../../images/btn_ml.gif"><img src="../../images/btn_ml.gif" width="1" height="12" alt=""></td><td align="center"><input type="submit" name="DEDBtnSrch" value="Search" onclick="clientValidation();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;DEDBtnSrch&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="DEDBtnSrch" tabindex="4" class="btn-sml-3"></td><td background="../../images/btn_mr.gif"><img width="1px" height="12px" src="../../images/btn_mr.gif" alt=""></td></tr><tr><td><img src="../../images/btn_bl.gif" width="1" height="1" alt=""></td><td background="../../images/btn_bm.gif"></td><td><img src="../../images/btn_br.gif" width="1" height="1" alt=""></td></tr></tbody></table>
+            </div>
+        </div>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep  -->
+        <div class="Validation">
+            <input name="txtValidation" type="text" value="Make Validation" id="txtValidation" class="input_text"><span id="cvRequiredValidation" style="display:none;">You need to enter at least one search criteria</span></div>
+        <!-- Opening FSTPrsnRep2  --><div class="box"><div class="box-t"><div class="box-r"><div class="box-b"><div class="box-l"><div class="box-t-r"><div class="box-t-l"><div class="box-b-r"><div class="box-b-l"><div class="box-content"><fieldset><legend><div class="box-head"><h3>Search Results</h3></div></legend><table width="100%" border="0" cellpadding="3"><tbody><tr><td nowrap="" width="10px" style="width: 0px;"></td><td>
+        <div class="divInspRep" align="center">
+            <hr id="hrCompany" class="hidden" width="100%">
+
+            <div class="grid">
+                <table tabindex="5" cellspacing="0" id="DGSrcResult" style="width:100%;border-collapse:collapse;">
+	<tbody><tr class="DataGridTableTh">
+		<th scope="col">License Nr.</th><th scope="col">Trade Name (English)</th><th scope="col">Trade Name (Arabic)</th>
+	</tr><tr>
+		<td style="font-weight: bold;">
+                                <a href="#" onclick="NewPopUpWindow(&quot;CompProPopup_A.aspx?LC=L800005I387260R1954799T25526503&quot;,&quot;CompanySearch&quot;,680,420,true);">
+                                    800005
+                                </a>
+                            </td><td>
+                                <span dir="ltr">
+                                    SHADE E P C CONTRACTING L.L.C
+                                </span>
+                            </td><td>
+                                <span dir="rtl">
+                                    شيد اي بيه سي للمقاولات ش.ذ.م.م
+                                </span>
+                            </td>
+	</tr>
+</tbody></table>
+            </div>
+            <div class="pagination">
+                <div class="paging-numbers">Page<span class="current">&nbsp;1</span>  of  <span class="total">1</span></div><div class="paging-arrows"><a disabled="disabled" class="last" href="javascript:__doPostBack('ctl13','')">Last</a><a disabled="disabled" class="next" href="javascript:__doPostBack('ctl12','')">Next</a><a class="prev" href="javascript:__doPostBack('ctl11','')">Previous</a><a class="first" href="javascript:__doPostBack('ctl10','')">First</a></div> </div>
+            </div>
+            <script type="text/javascript" charset="utf-8">
+                $(document).ready(function () {
+                    $("a[rel^='prettyPhoto']").each(function (index) {
+                        $(this).prettyPhoto({ theme: 'facebook' });
+                    });
+                });
+            </script>
+
+        <div class="clear">
+        </div>
+        </td></tr></tbody></table> </fieldset></div></div></div></div></div></div></div></div></div></div><!-- Closing FSBPrsnRep2  -->
+    </div>
+
+<!-- Delete any html generated above -->
+
+<!-- Google analytics-->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1205005-20', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- Scripts -->
+<script type="text/javascript">
+
+    //Hide status bar msg II script- by javascriptkit.com
+    //Visit JavaScript Kit (http://javascriptkit.com) for script
+    //Credit must stay intact for use
+
+    function hidestatus() {
+        window.status = '';
+        return true
+    }
+
+    if (document.layers) {
+        document.captureEvents(Event.MOUSEOVER | Event.MOUSEOUT)
+    }
+    document.onmouseover = hidestatus;
+    document.onmouseout = hidestatus;
+</script>
+<script lang="JavaScript">
+    try {
+        MM_showHideLayers('ins', '', 'hide');
+    }
+    catch (e) {
+    }
+</script>
+<div class="clear">
+</div>
+</div> </div> </div>
+
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="https://happinessmeter.dubai.gov.ae/HappinessMeter2/source/jquery.fancybox.css?v=2.1.5" media="screen">
+<script type="text/javascript">
+
+    // get the page name
+    var pageName = (function () {
+        var a = window.location.href,
+        b = a.lastIndexOf("/");
+        return a.substr(b + 1);
+    } ());
+
+    function autoClick() {
+        if (pageName == 'TransactionIndex.aspx') {
+            document.getElementById('onload').click();
+        }
+    }
+
+</script>
+<style type="text/css">
+    .fancybox-custom .fancybox-skin
+    {
+        box-shadow: 0 0 50px #222;
+    }
+    body
+    {
+        /*max-width: 700px;*/
+        margin: 0 auto;
+    }
+
+    #foo
+    {
+        width: 35px;
+        height: 30px;
+        position: fixed;
+        bottom: 0px;
+        left: 15px;
+        background-color: #2EA07E;
+        padding: 10px;
+    }
+</style>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("vsError"));
+var Page_Validators =  new Array(document.getElementById("cvTradeNameA"), document.getElementById("cvTradeNameE"), document.getElementById("cvRequiredValidation"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var vsError = document.all ? document.all["vsError"] : document.getElementById("vsError");
+vsError.headertext = " ";
+vsError.displaymode = "List";
+var cvTradeNameA = document.all ? document.all["cvTradeNameA"] : document.getElementById("cvTradeNameA");
+cvTradeNameA.controltovalidate = "txtValidation";
+cvTradeNameA.errormessage = "The Arabic Trade Name should not be less then 5 characters";
+cvTradeNameA.display = "None";
+cvTradeNameA.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvTradeNameA.clientvalidationfunction = "minCharFieldsA";
+var cvTradeNameE = document.all ? document.all["cvTradeNameE"] : document.getElementById("cvTradeNameE");
+cvTradeNameE.controltovalidate = "txtValidation";
+cvTradeNameE.errormessage = "English Trade Name should not be less than 5 characters.";
+cvTradeNameE.display = "None";
+cvTradeNameE.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvTradeNameE.clientvalidationfunction = "minCharFieldsE";
+var cvRequiredValidation = document.all ? document.all["cvRequiredValidation"] : document.getElementById("cvRequiredValidation");
+cvRequiredValidation.controltovalidate = "txtValidation";
+cvRequiredValidation.errormessage = "You need to enter at least one search criteria";
+cvRequiredValidation.display = "Dynamic";
+cvRequiredValidation.evaluationfunction = "CustomValidatorEvaluateIsValid";
+cvRequiredValidation.clientvalidationfunction = "requiredField";
+//]]>
+</script>
+
+<script language="JavaScript"> ;var CrystalReportPage='../../Pages/common/DeliverPDF.aspx?1=1&n=ie&L=_E&PSU=173956';  ;var CrystalReportPageInternal='../../Pages/common/DeliverPDF.aspx?1=1&n=ie&L=_E&PSU=173956'; </script>
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+//]]>
+</script>
+</form>
+    <script type="text/javascript">
+        var frmCompanyLookup = new CompanyLookup()
+        frmCompanyLookup.init(); // And call the Init method
+    </script>
+    <script type="text/javascript" language="javascript">
+        // function to highlight the current page link
+        Initiategrecaptcha("LicenseSearch");
+        set_selected("menu_li_CompLookup");
+    </script>
+
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LdBP30UAAAAAIXSo6p1QR75eDt9tYGQzfV1xcIL&amp;co=aHR0cHM6Ly9lc2VydmljZXMuZHViYWlkZWQuZ292LmFlOjQ0Mw..&amp;hl=en&amp;v=5qcenVbrhOy8zihcc2aHOWD4&amp;size=invisible&amp;cb=10bfwrtdbqy4" width="256" height="60" role="presentation" name="a-hd9vh4tfxrz3" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response input_text" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body></html>
+
+Process finished with exit code 0

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_node>
+<ipobject name="__Client_IP_Address/Subnet1122" single="true" type="1" value="10.113.8.0/24">
+</ipobject>
+<ipobject name="__Client_IP_Address/Subnet1098" single="true" type="1" value="10.113.9.0/24">
+</ipobject>
+<ipobject name="__Client_IP_Address/Subnet4120" single="true" type="1" value="10.113.36.0/24">
+</ipobject>
+</root_node>

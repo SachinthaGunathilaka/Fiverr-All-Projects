@@ -1,0 +1,15 @@
+Apples
+10
+Oranges
+8
+Butter
+1
+Sugar
+2
+Bread
+3
+Milk
+0
+
+
+

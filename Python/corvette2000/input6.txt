@@ -1,0 +1,6 @@
+milk
+bread
+eggs
+waffles
+cereal
+-1

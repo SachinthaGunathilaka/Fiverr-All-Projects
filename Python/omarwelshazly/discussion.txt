@@ -1,0 +1,12 @@
+According to the graphs, when the data set size increasing execution time of each sorting algorithm will be
+increased. The reason for that is, when size of the data set increasing, number of operations for the sorting will also
+be increased.
+
+When considering selection sort algorithm, it has O(n^2) time complexity. Therefore, graph for selection
+sort has a big gradient.
+
+When considering merge sort algorithm, it has O(nlog(n)) time complexity. Therefore it has less gradient than
+the selection sort.
+
+Radix sort algorithm has O(nd) time complexity. In here d is the number of digits in the largest number.
+This graph has the lowest gradient among these 3 sorting algorithms.

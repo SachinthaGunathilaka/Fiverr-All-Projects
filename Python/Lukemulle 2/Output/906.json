@@ -1,0 +1,38 @@
+{
+    "dna": "633477fe3dd746541638ffb7eab3ff0a",
+    "name": "Eth Monkeys #906",
+    "description": "Eth Monkeys are a 5005 randomly generated PFP collection derived from Solana Monkey Business but on the better blockchain Ethereum! Each Eth Monkey is unique and different there will be no exact look a likes to the Solana Monkey Business, we've also added a few new unique traits as well!",
+    "image": "ipfs://QmR8UJbpCi6utj14HB1NbGTzmZ4ryp85xUj1fj58HQ6piz/906.png",
+    "date": 1654493828309,
+    "attributes": [
+        {
+            "trait_type": "Backgrounds",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "Body",
+            "value": "Rainbow"
+        },
+        {
+            "trait_type": "Shirts",
+            "value": "Spartan Armor"
+        },
+        {
+            "trait_type": "Earrings",
+            "value": "Diamond Earring"
+        },
+        {
+            "trait_type": "Mouth",
+            "value": "Cigarette"
+        },
+        {
+            "trait_type": "Glasses",
+            "value": "Deal With It Glasses"
+        },
+        {
+            "trait_type": "Hats",
+            "value": "White Fedora 1"
+        }
+    ],
+    "compiler": "mintables.club"
+}

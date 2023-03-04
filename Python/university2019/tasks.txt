@@ -1,0 +1,13 @@
+Task 3
+-------------------
+KeyError
+
+
+
+Task 7
+------------------
+a and b             a or b
+True                True
+False               True
+False               False
+False               True

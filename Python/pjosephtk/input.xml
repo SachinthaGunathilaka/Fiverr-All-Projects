@@ -1,0 +1,13 @@
+<head>
+    <colItem col="1" id="so" name="TeamWork Source" negate="false" type="Condition">
+        name="kfjdk fdkjfkdfj"
+    </colItem>
+    <colItem col="2" id="de" name="TeamWork Destination" negate="false" type="Condition">
+    </colItem>
+    <colItem col="3" id="se" name="HTTP-SOCKS" negate="false" type="Condition">
+    </colItem>
+    <colItem col="5" id="ti" name="Any" type="String">
+    </colItem>
+    <colItem col="4" id="ac" name="Allow" negate="false" type="Condition">
+    </colItem>
+</head>

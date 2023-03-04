@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="book">
+    <file>images/book.jpg</file>
+  </qresource>
+  <qresource prefix="downArrow">
+    <file>images/down-arrow.png</file>
+  </qresource>
+  <qresource prefix="upArrow">
+    <file>images/up-arrow.png</file>
+  </qresource>
+</RCC>

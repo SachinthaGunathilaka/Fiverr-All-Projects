@@ -1,0 +1,40 @@
+Aaron Rodgers
+12
+60
+A
+Joe Theismann
+15
+60
+B
+Philip Rivers
+12
+36
+C
+Tom Brady
+9
+45
+A
+Carl Mayors
+3
+15
+A
+Deshaun Watson
+9
+27
+C
+Drew Brees
+3
+15
+A
+Julio Jones
+15
+45
+C
+Mary Watson
+9
+27
+C
+Patrick Mahomes
+12
+36
+C

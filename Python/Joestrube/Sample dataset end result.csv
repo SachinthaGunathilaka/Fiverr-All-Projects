@@ -1,0 +1,2 @@
+﻿nominal_int,indexCAT,Id,StartDate,EndDate,randompropernouna,randompropernounb,direction,durationmin,maxlength,Startmeasure,Endmeasure,Frompixelx,Frompixely,Topixelx,Topixely,unit_ids,unit_count,Is duplicate?,Duplicate_nominal_int
+0,78,random-hash,2022-02-04T03:35:54.000Z,2022-02-04T03:35:54.000Z,Duck,Cat,Northbound,2,20.2,0.975,0.607,917.098991,919.12375,913.9891722,919.12375,"[6digint, 6digint, 9digint, 6digint….]",99,,

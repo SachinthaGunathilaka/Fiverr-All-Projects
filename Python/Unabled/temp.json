@@ -1,0 +1,10 @@
+{
+  "Train Manager": [
+    {
+      "TrainLinkedList-0": "<[Hopper]ID:HP-0 Cargo type: sand Volume: 20> -> <[Gondola]ID:GD-0 Cargo type: coal Volume: 20> -> <[Cistern]ID:CT-0 Cargo type: oil Volume: 15> -> None"
+    },
+    {
+      "TrainLinkedList-1": "<[Box Car]ID:BC-1 Cargo type: food Volume: 30> -> <[Cistern]ID:CT-1 Cargo type: oil Volume: 30> -> <[Gondola]ID:GD-1 Cargo type: coal Volume: 21> -> None"
+    }
+  ]
+}
